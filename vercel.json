@@ -3,7 +3,6 @@
   "framework": "nextjs",
   "buildCommand": "next build",
   "installCommand": "pnpm install --frozen-lockfile",
-  "nodeVersion": "18.x",
   "regions": ["iad1"],
   "env": {
     "DATABASE_URL": "@database_url",
