@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   experimental: {
-    turbo: {},
   },
+  turbopack: {},
   images: {
     domains: ["pub-xxxx.r2.dev"],
     remotePatterns: [
