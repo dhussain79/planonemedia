@@ -50,3 +50,5 @@ prisma/migrations/
 # Temp
 tmp/
 temp/
+
+.vercel
