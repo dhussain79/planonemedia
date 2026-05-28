@@ -17,6 +17,19 @@ export async function GET(req: Request) {
       return NextResponse.redirect(new URL("/signin?expired=1", req.url));
     }
 
+    // Check if user exists
+    const user = await prisma.user.findUnique({
+      where: { email: record.identifier },
+    });
+    if (!user) {
+      return NextResponse.redirect(new URL("/signin?error=1", req.url));
+    }
+
+    // Skip if already verified
+    if (user.emailVerified) {
+      return NextResponse.redirect(new URL("/signin?verified=1", req.url));
+    }
+
     await prisma.user.update({
       where: { email: record.identifier },
       data: { emailVerified: new Date() },
@@ -46,6 +59,16 @@ export async function POST(req: Request) {
 
     if (!record || record.expires < new Date()) {
       return NextResponse.json({ error: "Invalid or expired token" }, { status: 400 });
+    }
+
+    const user = await prisma.user.findUnique({
+      where: { email: record.identifier },
+    });
+    if (!user) {
+      return NextResponse.json({ error: "User not found" }, { status: 404 });
+    }
+    if (user.emailVerified) {
+      return NextResponse.json({ success: true, message: "Already verified" });
     }
 
     await prisma.user.update({

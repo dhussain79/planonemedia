@@ -82,6 +82,20 @@ function cleanText(s) {
   return r;
 }
 
+function slugify(s) {
+  if (!s) return null;
+  return s
+    .toLowerCase()
+    .replace(/<[^>]*>/g, '')
+    .replace(/&[^;]+;/g, '-')
+    .replace(/[^a-z0-9\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF\s-]/g, '')
+    .trim()
+    .replace(/[\s]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 200) || null;
+}
+
 const args = process.argv.slice(2);
 const isDryRun = args.includes('--dry-run');
 const extractAll = args.includes('--all');
@@ -174,6 +188,14 @@ async function run() {
     if (m.supplierName && nameRemap.has(m.supplierName)) {
       m.supplierName = nameRemap.get(m.supplierName);
     }
+  }
+  // Deduplicate slugs
+  const slugCount = new Map();
+  for (const m of media) {
+    if (!m.slug) continue;
+    const count = slugCount.get(m.slug) ?? 0;
+    slugCount.set(m.slug, count + 1);
+    if (count > 0) m.slug = `${m.slug}-${count}`;
   }
 
   // Quality reports
@@ -329,7 +351,7 @@ function normalizeMedia(node, data, validSupplierIds) {
 
   const result = {
     title: node.title,
-    slug: null,
+    slug: slugify(node.title),
     mediaType: tax4 ? mediaTypeToEnum(getTaxonomyName(data, tax4.taxonomy_vocabulary_4_tid)) : null,
     category: tax5 ? getTaxonomyName(data, tax5.taxonomy_vocabulary_5_tid) : null,
     profile: tax1 ? getTaxonomyName(data, tax1.taxonomy_vocabulary_1_tid) : null,

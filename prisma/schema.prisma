@@ -113,6 +113,7 @@ model Supplier {
   tradingName      String?
   crn              String?
   vatNumber        String?
+  description      String?
   email            String?
   phone            String?
   fax              String?
@@ -144,6 +145,7 @@ model Media {
   ratecardFiles Json?
   logoUrl       String?
   starRating    Int?
+  location      Unsupported("geometry(Point, 4326)")?
   status        String   @default("published")
   supplierId    String?
   supplier      Supplier? @relation(fields: [supplierId], references: [id])
@@ -151,6 +153,9 @@ model Media {
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
+  @@index([slug])
+  @@index([mediaType])
+  @@index([region])
   @@map("media")
 }
 

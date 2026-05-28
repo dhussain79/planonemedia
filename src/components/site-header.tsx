@@ -13,6 +13,12 @@ export default function SiteHeader({ variant = "public" }: SiteHeaderProps) {
         </Link>
         {variant === "public" ? (
           <nav className="hidden sm:flex items-center gap-6 text-sm text-muted-foreground">
+            <Link href="/media" className="hover:text-foreground transition-colors">
+              Media
+            </Link>
+            <Link href="/suppliers" className="hover:text-foreground transition-colors">
+              Suppliers
+            </Link>
             <Link href="/#features" className="hover:text-foreground transition-colors">
               Features
             </Link>

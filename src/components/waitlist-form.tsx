@@ -24,6 +24,7 @@ type WaitlistFormData = z.infer<typeof waitlistSchema>;
 
 export default function WaitlistForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   const {
     register,
@@ -34,17 +35,20 @@ export default function WaitlistForm() {
   });
 
   const onSubmit = async (data: WaitlistFormData) => {
+    setSubmitError(null);
     try {
       const res = await fetch("/api/waitlist", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-      if (!res.ok) throw new Error("Submission failed");
+      if (!res.ok) {
+        const body = await res.json().catch(() => null);
+        throw new Error(body?.error || "Submission failed");
+      }
       setSubmitted(true);
-    } catch {
-      // fallback: show success anyway for now
-      setSubmitted(true);
+    } catch (e) {
+      setSubmitError(e instanceof Error ? e.message : "Something went wrong. Please try again.");
     }
   };
 
@@ -126,6 +130,10 @@ export default function WaitlistForm() {
               <p className="text-sm text-destructive">{errors.preferredCities.message}</p>
             )}
           </div>
+
+          {submitError && (
+            <p className="text-sm text-destructive bg-destructive/10 p-3 rounded-md">{submitError}</p>
+          )}
 
           <Button type="submit" className="w-full" disabled={isSubmitting}>
             {isSubmitting ? (

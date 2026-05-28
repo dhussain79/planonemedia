@@ -39,8 +39,11 @@ export default function CheckListing() {
         const res = await fetch(
           `/api/supplier/claim?q=${encodeURIComponent(q)}`,
         );
+        if (!res.ok) throw new Error("Search failed");
         const data = await res.json();
         setResults(data.suppliers ?? []);
+      } catch {
+        setResults([]);
       } finally {
         setLoading(false);
         setSearched(true);
