@@ -30,6 +30,21 @@ enum MediaType {
   OTHER
 }
 
+enum PricingModel {
+  CPM
+  CPC
+  FLAT_RATE
+  DYNAMIC
+}
+
+enum AssetStatus {
+  DRAFT
+  PENDING_REVIEW
+  ACTIVE
+  PAUSED
+  ARCHIVED
+}
+
 enum CategoryType {
   MEDIA_TYPE
   REGION
@@ -133,29 +148,59 @@ model Supplier {
 }
 
 model Media {
-  id            String   @id @default(cuid())
-  title         String
-  slug          String?
-  mediaType     MediaType?
-  description   String?
-  summary       String?
-  region        String?
-  category      String?
-  profile       String?
-  ratecardFiles Json?
-  logoUrl       String?
-  starRating    Int?
-  location      Unsupported("geometry(Point, 4326)")?
-  status        String   @default("published")
-  supplierId    String?
-  supplier      Supplier? @relation(fields: [supplierId], references: [id])
-  categories    MediaCategory[]
-  createdAt     DateTime @default(now())
-  updatedAt     DateTime @updatedAt
+  id                    String   @id @default(cuid())
+  title                 String
+  slug                  String?
+  mediaType             MediaType?
+  description           String?
+  summary               String?
+  format                String?
+  region                String?
+  category              String?
+  profile               String?
+  ratecardFiles         Json?
+  logoUrl               String?
+  images                Json?
+  starRating            Int?
+  location              Unsupported("geometry(Point, 4326)")?
+  locationAddress       String?
+  locationCity          String?
+  locationCountry       String?
+  locationGovernorate   String?
+  locationLat           Float?
+  locationLng           Float?
+  width                 Float?
+  height                Float?
+  displayArea           Float?
+  resolution            String?
+  orientation           String?
+  isIlluminated         Boolean  @default(false)
+  hasAudio              Boolean  @default(false)
+  isInteractive         Boolean  @default(false)
+  pricingModel          PricingModel?
+  basePrice             Float?
+  currency              String?  @default("SAR")
+  minimumSpend          Float?
+  slotGranularity       String?
+  dailyImpressions      Int?
+  monthlyImpressions    Int?
+  estimatedViews        Int?
+  audienceDemographics  Json?
+  assetStatus           AssetStatus @default(DRAFT)
+  deletedAt             DateTime?
+  status                String   @default("published")
+  supplierId            String?
+  supplier              Supplier? @relation(fields: [supplierId], references: [id])
+  categories            MediaCategory[]
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
 
   @@index([slug])
   @@index([mediaType])
   @@index([region])
+  @@index([locationCity])
+  @@index([assetStatus])
+  @@index([deletedAt])
   @@map("media")
 }
 

@@ -28,3 +28,23 @@ export interface MediaSearchDocument {
 }
 
 export const MEDIA_INDEX = "media";
+
+export async function indexMediaDocument(doc: MediaSearchDocument): Promise<void> {
+  const ms = getMeilisearch();
+  if (!ms) return;
+  try {
+    await ms.index(MEDIA_INDEX).updateDocuments([doc]);
+  } catch (err) {
+    console.error("Meilisearch indexing error:", err);
+  }
+}
+
+export async function removeMediaDocument(id: string): Promise<void> {
+  const ms = getMeilisearch();
+  if (!ms) return;
+  try {
+    await ms.index(MEDIA_INDEX).deleteDocument(id);
+  } catch (err) {
+    console.error("Meilisearch delete error:", err);
+  }
+}
