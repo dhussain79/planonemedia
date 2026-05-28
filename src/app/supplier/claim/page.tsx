@@ -47,6 +47,12 @@ export default function ClaimPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ supplierId }),
       });
+
+      if (res.status === 401) {
+        router.push("/signin?redirect=/supplier/claim");
+        return;
+      }
+
       const data = await res.json();
       if (res.ok) {
         setMessage("Claim submitted for review! We'll notify you once approved.");

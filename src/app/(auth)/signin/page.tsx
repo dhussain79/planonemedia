@@ -5,8 +5,11 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import SiteHeader from "@/components/site-header";
 
-export default async function SignInPage() {
+export default async function SignInPage(props: {
+  searchParams: Promise<{ redirect?: string }>;
+}) {
   const session = await auth();
+  const { redirect: redirectTo } = await props.searchParams;
 
   return (
     <>
@@ -47,7 +50,7 @@ export default async function SignInPage() {
                     "use server";
                     const email = formData.get("email") as string;
                     const password = formData.get("password") as string;
-                    await signIn("credentials", { email, password, redirectTo: "/supplier/dashboard" });
+                    await signIn("credentials", { email, password, redirectTo: redirectTo ?? "/supplier/dashboard" });
                   }}
                 >
                   <div className="space-y-4">
