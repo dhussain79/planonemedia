@@ -192,6 +192,8 @@ model Media {
   supplierId            String?
   supplier              Supplier? @relation(fields: [supplierId], references: [id])
   categories            MediaCategory[]
+  rateCards             RateCard[]
+  bookings              Booking[]
   createdAt             DateTime @default(now())
   updatedAt             DateTime @updatedAt
 
@@ -225,6 +227,85 @@ model MediaCategory {
 
   @@id([mediaId, categoryId])
   @@map("media_categories")
+}
+
+enum DiscountType {
+  PERCENTAGE
+  FLAT_AMOUNT
+}
+
+enum BookingStatus {
+  DRAFT
+  CONFIRMED
+  ACTIVE
+  COMPLETED
+  CANCELLED
+}
+
+model RateCard {
+  id              String      @id @default(cuid())
+  name            String
+  mediaId         String
+  supplierId      String?
+  isActive        Boolean     @default(true)
+  validFrom       DateTime
+  validTo         DateTime?
+  priority        Int         @default(0)
+  pricingModel    PricingModel?
+  baseRate        Float
+  currency        String      @default("SAR")
+  volumeDiscounts Json?
+  media           Media       @relation(fields: [mediaId], references: [id])
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+
+  @@index([mediaId])
+  @@index([isActive, validFrom, validTo])
+  @@map("rate_cards")
+}
+
+model PromoCode {
+  id            String       @id @default(cuid())
+  code          String       @unique
+  description   String?
+  isActive      Boolean      @default(true)
+  validFrom     DateTime
+  validTo       DateTime?
+  usageLimit    Int          @default(0)
+  usedCount     Int          @default(0)
+  perUserLimit  Int          @default(1)
+  minSpend      Float        @default(0)
+  discountType  DiscountType
+  discountValue Float
+  maxDiscount   Float?
+  assetTypes    Json?
+  sellerIds     Json?
+  createdBy     String?
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  @@index([code, isActive])
+  @@map("promo_codes")
+}
+
+model Booking {
+  id          String        @id @default(cuid())
+  mediaId     String
+  buyerId     String
+  supplierId  String?
+  startDate   DateTime
+  endDate     DateTime
+  quantity    Int           @default(1)
+  status      BookingStatus @default(DRAFT)
+  totalAmount Float?
+  currency    String        @default("SAR")
+  media       Media         @relation(fields: [mediaId], references: [id])
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  @@index([mediaId, startDate, endDate])
+  @@index([status])
+  @@map("bookings")
 }
 
 model WaitlistEntry {
