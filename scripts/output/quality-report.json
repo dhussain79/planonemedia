@@ -1,0 +1,37 @@
+{
+  "media": {
+    "label": "media",
+    "total": 1378,
+    "complete": 1347,
+    "partial": 31,
+    "empty": 0,
+    "avgCompleteness": 99,
+    "fieldStats": {
+      "title": {
+        "present": 1378,
+        "missing": 0,
+        "fillRate": 100
+      },
+      "supplierName": {
+        "present": 1347,
+        "missing": 31,
+        "fillRate": 98
+      }
+    }
+  },
+  "suppliers": {
+    "label": "supplier",
+    "total": 171,
+    "complete": 171,
+    "partial": 0,
+    "empty": 0,
+    "avgCompleteness": 100,
+    "fieldStats": {
+      "companyName": {
+        "present": 171,
+        "missing": 0,
+        "fillRate": 100
+      }
+    }
+  }
+}

@@ -50,5 +50,9 @@ prisma/migrations/
 # Temp
 tmp/
 temp/
+tmp-csv-output/
+data-review/
 
 .vercel
+
+/src/generated/prisma

@@ -1,0 +1,2432 @@
+{
+  "categories": [
+    {
+      "id": "cmpos1ld80010col4retzw2l2",
+      "name": "Corporate Gift",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 232
+    },
+    {
+      "id": "cmpos1ld80021col4a007vegu",
+      "name": "Interactive",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 150
+    },
+    {
+      "id": "cmpos1ld8002rcol4wum05z50",
+      "name": "Magazine",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 146
+    },
+    {
+      "id": "cmpos1ld9003acol487gnhevb",
+      "name": "Newspaper",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 145
+    },
+    {
+      "id": "cmpos1ld9003jcol4d3wq53ga",
+      "name": "Out of home (Indoor)",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 221
+    },
+    {
+      "id": "cmpos1ld9003kcol4t118l4au",
+      "name": "Out of home (Outdoor)",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 149
+    },
+    {
+      "id": "cmpos1ld9003ucol4h7z2pfhg",
+      "name": "Radio",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 203
+    },
+    {
+      "id": "cmpos1ld9004jcol42cwk5lmy",
+      "name": "TV",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 148
+    },
+    {
+      "id": "cmpos1ld9004lcol4ootto2s8",
+      "name": "TV Program",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 236
+    },
+    {
+      "id": "cmpos1ld90049col4h33s5t42",
+      "name": "Tabloid",
+      "type": "MEDIA_TYPE",
+      "parentId": null,
+      "legacyTid": 147
+    },
+    {
+      "id": "cmpos1ld70001col4t2efct4b",
+      "name": "Abha",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 88
+    },
+    {
+      "id": "cmpos1ld70005col4yie3oo64",
+      "name": "Al Ihsa",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 89
+    },
+    {
+      "id": "cmpos1ld70006col41750vpuz",
+      "name": "Al Jouf",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 167
+    },
+    {
+      "id": "cmpos1ld70007col4yvmpnk4d",
+      "name": "Al Jubail",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 168
+    },
+    {
+      "id": "cmpos1ld80008col4b9a9yk11",
+      "name": "Al Khafji",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 122
+    },
+    {
+      "id": "cmpos1ld80009col4ewyew1qk",
+      "name": "Al Kharj",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 90
+    },
+    {
+      "id": "cmpos1ld8000acol48dcmyddq",
+      "name": "Al Majmaa",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 127
+    },
+    {
+      "id": "cmpos1ld8000bcol495e7clhi",
+      "name": "Al Qurayat",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 130
+    },
+    {
+      "id": "cmpos1ld8000ccol4chtfzxla",
+      "name": "Al Zulfi",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 128
+    },
+    {
+      "id": "cmpos1ld8000fcol4nbb1aqlj",
+      "name": "Arar",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 91
+    },
+    {
+      "id": "cmpos1ld8000hcol403eeh1oe",
+      "name": "Asia",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 195
+    },
+    {
+      "id": "cmpos1ld8000icol4k0uehq1v",
+      "name": "Asir",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 119
+    },
+    {
+      "id": "cmpos1ld8000lcol4z4ai9y2q",
+      "name": "Baha",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 125
+    },
+    {
+      "id": "cmpos1ld8000mcol4fqkgctfc",
+      "name": "Bahrain",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 198
+    },
+    {
+      "id": "cmpos1ld8000ncol4ia3fzwgd",
+      "name": "Bahrain Causeway",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 165
+    },
+    {
+      "id": "cmpos1ld8000ocol496yv1hbf",
+      "name": "Bal Jorashi",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 126
+    },
+    {
+      "id": "cmpos1ld8000tcol4gh6tgbgr",
+      "name": "Canada",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 197
+    },
+    {
+      "id": "cmpos1ld8000ucol4nrna49cv",
+      "name": "Central Region",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 92
+    },
+    {
+      "id": "cmpos1ld80014col4p7ktsm8d",
+      "name": "Dahran",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 231
+    },
+    {
+      "id": "cmpos1ld80016col4gawddxy4",
+      "name": "Dammam",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 93
+    },
+    {
+      "id": "cmpos1ld8001acol449uv0vcc",
+      "name": "Eastern region",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 94
+    },
+    {
+      "id": "cmpos1ld8001dcol4odq76193",
+      "name": "Egypt",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 137
+    },
+    {
+      "id": "cmpos1ld8001jcol4bn34x1i3",
+      "name": "Europe",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 194
+    },
+    {
+      "id": "cmpos1ld8001rcol47fnatx8j",
+      "name": "GCC",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 134
+    },
+    {
+      "id": "cmpos1ld8001tcol4tapri093",
+      "name": "Hail",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 118
+    },
+    {
+      "id": "cmpos1ld8001ycol4q69360kw",
+      "name": "Ibqiq",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 121
+    },
+    {
+      "id": "cmpos1ld80023col4iwob2x1h",
+      "name": "International",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 95
+    },
+    {
+      "id": "cmpos1ld80027col4nyexmh8y",
+      "name": "Jeddah",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 96
+    },
+    {
+      "id": "cmpos1ld80028col4x06k47vr",
+      "name": "Jizan",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 169
+    },
+    {
+      "id": "cmpos1ld80029col4uurggfj8",
+      "name": "Jordan",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 241
+    },
+    {
+      "id": "cmpos1ld8002bcol469oehihp",
+      "name": "Jubail",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 97
+    },
+    {
+      "id": "cmpos1ld8002ecol4gxynuxvq",
+      "name": "Khamis",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 98
+    },
+    {
+      "id": "cmpos1ld8002fcol4j422akxj",
+      "name": "Khobar",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 99
+    },
+    {
+      "id": "cmpos1ld8002hcol4kqnlw6c1",
+      "name": "Kuwait",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 136
+    },
+    {
+      "id": "cmpos1ld8002kcol4syebns52",
+      "name": "Lebanon",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 100
+    },
+    {
+      "id": "cmpos1ld8002mcol412202gjz",
+      "name": "Levant",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 215
+    },
+    {
+      "id": "cmpos1ld8002qcol4hha0izpj",
+      "name": "Madinah",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 101
+    },
+    {
+      "id": "cmpos1ld8002scol48eklq272",
+      "name": "Mahael",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 129
+    },
+    {
+      "id": "cmpos1ld8002tcol45v5ie7xd",
+      "name": "Makkah",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 102
+    },
+    {
+      "id": "cmpos1ld80030col40y1ipjww",
+      "name": "Middle East",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 173
+    },
+    {
+      "id": "cmpos1ld90037col4xrf0mjbd",
+      "name": "Mzahmieh",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 131
+    },
+    {
+      "id": "cmpos1ld90038col4fyqgld3w",
+      "name": "Nairia",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 123
+    },
+    {
+      "id": "cmpos1ld90039col4t2izz2fd",
+      "name": "Najran",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 105
+    },
+    {
+      "id": "cmpos1ld9003bcol4flhscw9u",
+      "name": "North Africa",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 193
+    },
+    {
+      "id": "cmpos1ld9003dcol4qjhojfki",
+      "name": "O.Rufaidah",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 124
+    },
+    {
+      "id": "cmpos1ld9003ecol4z6agxlip",
+      "name": "Oman",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 234
+    },
+    {
+      "id": "cmpos1ld9003hcol4hme34z6y",
+      "name": "Other cities or regions",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 116
+    },
+    {
+      "id": "cmpos1ld9003icol4oecifa50",
+      "name": "Other countries",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 115
+    },
+    {
+      "id": "cmpos1ld9003mcol40imjit9m",
+      "name": "Pan Arab",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 106
+    },
+    {
+      "id": "cmpos1ld9003pcol47fsk3ggw",
+      "name": "Qassim",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 107
+    },
+    {
+      "id": "cmpos1ld9003qcol4axifkfki",
+      "name": "Qatar",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 235
+    },
+    {
+      "id": "cmpos1ld9003rcol47i5hj6wt",
+      "name": "Qatif",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 166
+    },
+    {
+      "id": "cmpos1ld9003vcol4tnbsfpcp",
+      "name": "Ras Tanoura",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 108
+    },
+    {
+      "id": "cmpos1ld90040col4kd3we4jp",
+      "name": "Riyadh",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 109
+    },
+    {
+      "id": "cmpos1ld90041col4i8bfic53",
+      "name": "Saudi Arabia",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 110
+    },
+    {
+      "id": "cmpos1ld90044col40xtvgvt9",
+      "name": "Southern region",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 111
+    },
+    {
+      "id": "cmpos1ld90048col4dqqpt06n",
+      "name": "Syria",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 242
+    },
+    {
+      "id": "cmpos1ld9004acol4buu7w1n9",
+      "name": "Tabuk",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 117
+    },
+    {
+      "id": "cmpos1ld9004bcol41vumw61r",
+      "name": "Taif",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 112
+    },
+    {
+      "id": "cmpos1ld9004mcol4qbw6anaa",
+      "name": "UAE",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 113
+    },
+    {
+      "id": "cmpos1ld9004qcol471mus56f",
+      "name": "USA",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 196
+    },
+    {
+      "id": "cmpos1ld9004ncol43j4sdhkj",
+      "name": "Umlaj",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 132
+    },
+    {
+      "id": "cmpos1ld9004tcol4g014wji5",
+      "name": "Western Region",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 114
+    },
+    {
+      "id": "cmpos1ld9004ucol466e22uyn",
+      "name": "Yemen",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 243
+    },
+    {
+      "id": "cmpos1ld8001icol495e7hdmq",
+      "name": "essya",
+      "type": "REGION",
+      "parentId": null,
+      "legacyTid": 248
+    },
+    {
+      "id": "cmpos1ld70004col4i7i1hkt3",
+      "name": "Airport",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 157
+    },
+    {
+      "id": "cmpos1ld8000jcol42mtdf74e",
+      "name": "Audio",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 204
+    },
+    {
+      "id": "cmpos1ld8000qcol4hj0urqwt",
+      "name": "Bi-monthly",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 163
+    },
+    {
+      "id": "cmpos1ld8000rcol43ns0mdx0",
+      "name": "Broadcast",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 205
+    },
+    {
+      "id": "cmpos1ld80015col4co83iywb",
+      "name": "Daily",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 154
+    },
+    {
+      "id": "cmpos1ld8001hcol4fo4tdt4q",
+      "name": "Escalator",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 208
+    },
+    {
+      "id": "cmpos1ld8001scol4mz4io0fl",
+      "name": "Giganto",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 152
+    },
+    {
+      "id": "cmpos1ld8001xcol4i62f089t",
+      "name": "Hospital",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 170
+    },
+    {
+      "id": "cmpos1ld8001zcol4sqkzga5w",
+      "name": "In flight",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 151
+    },
+    {
+      "id": "cmpos1ld8002lcol4u1l4usa7",
+      "name": "LED Screen",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 164
+    },
+    {
+      "id": "cmpos1ld8002icol4vdsjfkb9",
+      "name": "Lamppost",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 153
+    },
+    {
+      "id": "cmpos1ld8002xcol4q08hnft6",
+      "name": "Malls",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 239
+    },
+    {
+      "id": "cmpos1ld8002zcol4i2nzxsz9",
+      "name": "Megacom",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 158
+    },
+    {
+      "id": "cmpos1ld80031col46hybouyt",
+      "name": "Monthly",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 155
+    },
+    {
+      "id": "cmpos1ld90035col4hsvivf3g",
+      "name": "Mupi",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 162
+    },
+    {
+      "id": "cmpos1ld9003fcol4h0svn8hj",
+      "name": "Online Magazine",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 200
+    },
+    {
+      "id": "cmpos1ld9003gcol4w85y4jt8",
+      "name": "Online Newspaper",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 201
+    },
+    {
+      "id": "cmpos1ld9003lcol4mdisay6n",
+      "name": "Outdoor",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 244
+    },
+    {
+      "id": "cmpos1ld9003scol43ynezsqc",
+      "name": "Quarterly",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 160
+    },
+    {
+      "id": "cmpos1ld9003tcol4rz35jewo",
+      "name": "Radio",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 202
+    },
+    {
+      "id": "cmpos1ld90042col420k8omk3",
+      "name": "Semi Annually",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 222
+    },
+    {
+      "id": "cmpos1ld90047col4cjne1vn2",
+      "name": "Superstructure",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 161
+    },
+    {
+      "id": "cmpos1ld9004kcol45d0ajfp8",
+      "name": "TV",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 209
+    },
+    {
+      "id": "cmpos1ld9004dcol4qhunks0l",
+      "name": "Telecast",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 210
+    },
+    {
+      "id": "cmpos1ld9004gcol4zhscg8c9",
+      "name": "Train station",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 156
+    },
+    {
+      "id": "cmpos1ld9004icol4q7rt1gr7",
+      "name": "Truck",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 171
+    },
+    {
+      "id": "cmpos1ld9004rcol4q26wyqg0",
+      "name": "Website",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 199
+    },
+    {
+      "id": "cmpos1ld9004scol4q8gfba6e",
+      "name": "Weekly",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 159
+    },
+    {
+      "id": "cmpos1ld9003ccol4nku6q6r7",
+      "name": "nothing",
+      "type": "CATEGORY",
+      "parentId": null,
+      "legacyTid": 247
+    },
+    {
+      "id": "cmpos1ld70002col4w80zdnc9",
+      "name": "Advertising",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 74
+    },
+    {
+      "id": "cmpos1ld70003col4cx8e0u53",
+      "name": "Affluent",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 29
+    },
+    {
+      "id": "cmpos1ld8000dcol47q6lhe9j",
+      "name": "Apple",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 224
+    },
+    {
+      "id": "cmpos1ld8000ecol4dej2tzfj",
+      "name": "Arabic",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 11
+    },
+    {
+      "id": "cmpos1ld8000gcol43amlrjb1",
+      "name": "Architects",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 174
+    },
+    {
+      "id": "cmpos1ld8000kcol428umcyjc",
+      "name": "Automobile",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 69
+    },
+    {
+      "id": "cmpos1ld8000scol4h2oqy9hm",
+      "name": "Business",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 6
+    },
+    {
+      "id": "cmpos1ld8000vcol4czkfrf03",
+      "name": "Classified",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 59
+    },
+    {
+      "id": "cmpos1ld8000wcol4ha716x1n",
+      "name": "Communication",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 172
+    },
+    {
+      "id": "cmpos1ld8000xcol4efij8wrk",
+      "name": "Conservative",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 218
+    },
+    {
+      "id": "cmpos1ld8000ycol49gqd9dmv",
+      "name": "Construction",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 178
+    },
+    {
+      "id": "cmpos1ld8000zcol4cs03pir2",
+      "name": "Cooking",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 245
+    },
+    {
+      "id": "cmpos1ld80011col4hst2huix",
+      "name": "Credit-card",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 51
+    },
+    {
+      "id": "cmpos1ld80012col4txe58ch3",
+      "name": "Culture",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 68
+    },
+    {
+      "id": "cmpos1ld80013col424cpohjs",
+      "name": "Current affairs",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 56
+    },
+    {
+      "id": "cmpos1ld80017col413ndxn0q",
+      "name": "Decor",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 34
+    },
+    {
+      "id": "cmpos1ld80018col4yl67qxgy",
+      "name": "Designers",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 175
+    },
+    {
+      "id": "cmpos1ld80019col4vibxd46p",
+      "name": "Directory",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 192
+    },
+    {
+      "id": "cmpos1ld8001bcol41kumy33a",
+      "name": "Economy",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 7
+    },
+    {
+      "id": "cmpos1ld8001ccol44q1w757c",
+      "name": "Education",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 63
+    },
+    {
+      "id": "cmpos1ld8001ecol4fgcbk5a0",
+      "name": "Engineers",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 177
+    },
+    {
+      "id": "cmpos1ld8001fcol49uevdj5q",
+      "name": "English",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 8
+    },
+    {
+      "id": "cmpos1ld8001gcol44davjg48",
+      "name": "Entertainment",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 64
+    },
+    {
+      "id": "cmpos1ld8001kcol4dojjckxz",
+      "name": "Events",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 65
+    },
+    {
+      "id": "cmpos1ld8001lcol4s5fnla9s",
+      "name": "Executive",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 27
+    },
+    {
+      "id": "cmpos1ld8001mcol4ymcbirmy",
+      "name": "Family",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 25
+    },
+    {
+      "id": "cmpos1ld8001ncol42z48awji",
+      "name": "Fashion",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 30
+    },
+    {
+      "id": "cmpos1ld8001ocol4bn01bcus",
+      "name": "Female",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 228
+    },
+    {
+      "id": "cmpos1ld8001pcol4izidk35m",
+      "name": "Females",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 19
+    },
+    {
+      "id": "cmpos1ld8001qcol4ju2w0j7n",
+      "name": "French",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 45
+    },
+    {
+      "id": "cmpos1ld8001ucol4s81jyltz",
+      "name": "Health",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 24
+    },
+    {
+      "id": "cmpos1ld8001vcol4olqwm9zg",
+      "name": "Hollywood",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 214
+    },
+    {
+      "id": "cmpos1ld8001wcol49lzyny76",
+      "name": "Home",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 33
+    },
+    {
+      "id": "cmpos1ld80020col4lgvgpigz",
+      "name": "Inside Malls",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 207
+    },
+    {
+      "id": "cmpos1ld80022col4pmqaygsi",
+      "name": "Interior Designers",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 176
+    },
+    {
+      "id": "cmpos1ld80024col4wdjzhxsk",
+      "name": "Investment",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 220
+    },
+    {
+      "id": "cmpos1ld80025col4jxxrqtnb",
+      "name": "Islam",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 219
+    },
+    {
+      "id": "cmpos1ld80026col40a9wv7lk",
+      "name": "Islamic",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 216
+    },
+    {
+      "id": "cmpos1ld8002acol401fxf2gn",
+      "name": "Journalism",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 240
+    },
+    {
+      "id": "cmpos1ld8002ccol4tve09g48",
+      "name": "KAUST",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 230
+    },
+    {
+      "id": "cmpos1ld8002dcol43pynsn9z",
+      "name": "Khaleej Music",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 206
+    },
+    {
+      "id": "cmpos1ld8002gcol4xg0mc6zt",
+      "name": "Kids",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 21
+    },
+    {
+      "id": "cmpos1ld8002jcol4nnyojlju",
+      "name": "Language",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 46
+    },
+    {
+      "id": "cmpos1ld8002ncol49dnvdmex",
+      "name": "Lists",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 48
+    },
+    {
+      "id": "cmpos1ld8002ocol40l4ri0kz",
+      "name": "Luxury",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 223
+    },
+    {
+      "id": "cmpos1ld8002pcol46n29v3yp",
+      "name": "Mac",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 225
+    },
+    {
+      "id": "cmpos1ld8002ucol4v4iu2t2b",
+      "name": "Malayalam",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 15
+    },
+    {
+      "id": "cmpos1ld8002vcol4jsjy2782",
+      "name": "Male",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 227
+    },
+    {
+      "id": "cmpos1ld8002wcol4olttxekt",
+      "name": "Males",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 23
+    },
+    {
+      "id": "cmpos1ld8002ycol4bj4grnga",
+      "name": "Marketing",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 75
+    },
+    {
+      "id": "cmpos1ld90032col43114z367",
+      "name": "Mother",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 35
+    },
+    {
+      "id": "cmpos1ld90033col4cl2uqusp",
+      "name": "Mothers",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 253
+    },
+    {
+      "id": "cmpos1ld90034col4mq3wdqg8",
+      "name": "Movies",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 213
+    },
+    {
+      "id": "cmpos1ld90036col4cjddsbff",
+      "name": "Music",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 229
+    },
+    {
+      "id": "cmpos1ld9003ncol4ywujoied",
+      "name": "Poetry",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 135
+    },
+    {
+      "id": "cmpos1ld9003ocol4lr363dk6",
+      "name": "Politics",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 55
+    },
+    {
+      "id": "cmpos1ld9003wcol4xaju0n28",
+      "name": "Real-Estate",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 60
+    },
+    {
+      "id": "cmpos1ld9003xcol40xz8z2ys",
+      "name": "Reality",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 211
+    },
+    {
+      "id": "cmpos1ld9003ycol4lb18r597",
+      "name": "Recipes",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 246
+    },
+    {
+      "id": "cmpos1ld9003zcol42lfujr3h",
+      "name": "Religious",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 217
+    },
+    {
+      "id": "cmpos1ld90043col411ee2cox",
+      "name": "Series",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 212
+    },
+    {
+      "id": "cmpos1ld90045col4zl8l88fc",
+      "name": "Sports",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 12
+    },
+    {
+      "id": "cmpos1ld90046col4n57q1m8m",
+      "name": "Style",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 31
+    },
+    {
+      "id": "cmpos1ld9004ccol40sp4xjep",
+      "name": "Teen",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 226
+    },
+    {
+      "id": "cmpos1ld9004ecol4kz0n90qy",
+      "name": "Telecommunication",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 67
+    },
+    {
+      "id": "cmpos1ld9004fcol4lld3g80k",
+      "name": "Trade",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 73
+    },
+    {
+      "id": "cmpos1ld9004hcol4tulubf4a",
+      "name": "Travel and tourism",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 66
+    },
+    {
+      "id": "cmpos1ld9004ocol49o90x232",
+      "name": "University",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 179
+    },
+    {
+      "id": "cmpos1ld9004pcol48k6xvku4",
+      "name": "Urdu",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 13
+    },
+    {
+      "id": "cmpos1ld9004vcol4k0b0sqe5",
+      "name": "Youth",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 22
+    },
+    {
+      "id": "cmpos1ld8000pcol4p8zqb1nj",
+      "name": "beauty",
+      "type": "PROFILE",
+      "parentId": null,
+      "legacyTid": 254
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "cmpos1m9p0054col44uifl84q",
+      "companyName": "AL JAZIRA",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 52,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:01.501Z",
+      "updatedAt": "2026-05-28T00:51:01.501Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    },
+    {
+      "id": "cmpos1m730053col4nm90iw6s",
+      "companyName": "AL WATANIYA GROUP",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 47,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:01.407Z",
+      "updatedAt": "2026-05-28T00:51:01.407Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    },
+    {
+      "id": "cmpos1mcb0055col45p7tchup",
+      "companyName": "AL YAUM PRESS, PRINTING AND PUBLISHING",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 55,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:01.595Z",
+      "updatedAt": "2026-05-28T00:51:01.595Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    },
+    {
+      "id": "cmpos1lop004wcol4d5mx84fz",
+      "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 1,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:00.745Z",
+      "updatedAt": "2026-05-28T00:51:00.745Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    },
+    {
+      "id": "cmpos1m1u0051col4w864u897",
+      "companyName": "AL-MADINA PRESS GROUP",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 42,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:01.218Z",
+      "updatedAt": "2026-05-28T00:51:01.218Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    },
+    {
+      "id": "cmpos1lz70050col44ycsmop0",
+      "companyName": "AL-YAMAMA PRESS ESTABLISHMENT",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 39,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:01.123Z",
+      "updatedAt": "2026-05-28T00:51:01.123Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    },
+    {
+      "id": "cmpos1m4g0052col4vy7vezvq",
+      "companyName": "ASSIR PRESS & PUBLISHING EST.",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 45,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:01.312Z",
+      "updatedAt": "2026-05-28T00:51:01.312Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    },
+    {
+      "id": "cmpos1ltz004ycol4t8jjrkg8",
+      "companyName": "BSA CONSULTANTS",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 30,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:00.935Z",
+      "updatedAt": "2026-05-28T00:51:00.935Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    },
+    {
+      "id": "cmpos1lwm004zcol4rekr3hcm",
+      "companyName": "OKAZ ORGANIZATION FOR PRESS & PUBLICATION",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 33,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:01.030Z",
+      "updatedAt": "2026-05-28T00:51:01.030Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    },
+    {
+      "id": "cmpos1lre004xcol4a78x1v08",
+      "companyName": "SPECOM SPECIALIZED COMMUNICATIONS",
+      "tradingName": null,
+      "crn": null,
+      "vatNumber": null,
+      "billingAddress": null,
+      "website": null,
+      "logo": null,
+      "status": "PENDING_VERIFICATION",
+      "legacyId": 28,
+      "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+      "createdAt": "2026-05-28T00:51:00.842Z",
+      "updatedAt": "2026-05-28T00:51:00.842Z",
+      "primaryContact": {
+        "id": "cmpos1kpb0000col43pvs7jzk",
+        "firstName": "PlanOne",
+        "lastName": "Media",
+        "jobTitle": "Default Contact",
+        "email": null,
+        "phone": null,
+        "mobile": null,
+        "avatar": null,
+        "isDefault": true,
+        "supplierId": null,
+        "createdAt": "2026-05-28T00:50:59.471Z",
+        "updatedAt": "2026-05-28T00:50:59.471Z"
+      },
+      "contacts": []
+    }
+  ],
+  "media": [
+    {
+      "id": "cmpos1ten005ecol457eakt4d",
+      "legacyId": 12,
+      "title": "AALAM ASHARQ AL AWSAT ALRIYADI MAGAZINE",
+      "slug": null,
+      "mediaType": "MAGAZINE",
+      "description": "rn<h1>For Booking and more information:<br />rn</h1>rn<h2>Office No: +966 2 6531064</h2>rn<h2>Email: info@plan-one.com</h2>rn<br />rnTHE NEW GENERAL YOUTH MAGAZINErnrnrnrn",
+      "summary": "rnTHE NEW GENERAL YOUTH MAGAZINErnrnrnrn",
+      "region": "Pan Arab",
+      "category": "Weekly",
+      "profile": "Youth",
+      "ratecardFiles": [
+        {
+          "fid": 4588,
+          "url": "public://alam ashraq al wast_0.jpg",
+          "width": null,
+          "height": null
+        }
+      ],
+      "logoUrl": null,
+      "starRating": null,
+      "status": "published",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:10.751Z",
+      "updatedAt": "2026-05-28T00:51:10.751Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1ten005ecol457eakt4d",
+          "categoryId": "cmpos1ld9003mcol40imjit9m",
+          "category": {
+            "id": "cmpos1ld9003mcol40imjit9m",
+            "name": "Pan Arab",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 106
+          }
+        },
+        {
+          "mediaId": "cmpos1ten005ecol457eakt4d",
+          "categoryId": "cmpos1ld9004vcol4k0b0sqe5",
+          "category": {
+            "id": "cmpos1ld9004vcol4k0b0sqe5",
+            "name": "Youth",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 22
+          }
+        },
+        {
+          "mediaId": "cmpos1ten005ecol457eakt4d",
+          "categoryId": "cmpos1ld9004scol4q8gfba6e",
+          "category": {
+            "id": "cmpos1ld9004scol4q8gfba6e",
+            "name": "Weekly",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 159
+          }
+        },
+        {
+          "mediaId": "cmpos1ten005ecol457eakt4d",
+          "categoryId": "cmpos1ld8002rcol4wum05z50",
+          "category": {
+            "id": "cmpos1ld8002rcol4wum05z50",
+            "name": "Magazine",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 146
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmpos1ndp0057col43doiwnx0",
+      "legacyId": 4,
+      "title": "AL EQTISADIAH",
+      "slug": null,
+      "mediaType": "NEWSPAPER",
+      "description": "<ul>rn\t<li>rn\t\t<span>Launched in December of 1992 in Riyadh,</span></li>rn\t<li>rn\t\t<span>Al Eqtisadiah is an Arabic language daily newspaper with an exclusive focus on economic and business news and analysis. </span></li>rn\t<li>rn\t\t<span>The newspaper provides news coverage as well as research, analysis and commentary on domestic, regional and international economic and business-related events. </span></li>rn\t<li>rn\t\t<span>The newspaper complements its coverage of regional business and economic news with translated extracts from major international business publications, including the Financial Times, the Harvard Business Review, INSEAD, and Frankfurter. </span></li>rn\t<li>rn\t\t<span>The newspaper primarily targets professionals, investors, academics, and senior government employees in the Kingdom and the GCC. </span></li>rn\t<li>rn\t\t<span>Additions are currently being undertaken to the newspaper, widening the geographic coverage to include the GCC, in order to expand the newspaper&rsquo;s readership base. </span></li>rn\t<li>rn\t\t<span>Being the only Saudi and regional daily newspaper with an exclusive focus on business and economics news and analysis. </span></li>rn\t<li>rn\t\t<span>Al Eqtisadiah is currently the only specialized business and financial newspaper in the Kingdom.</span></li>rn</ul>rn<h1>rn\t<strong>Circulation</strong></h1>rn<ul>rn\t<li>rn\t\tTotal Circulation 99,529</li>rn\t<li>rn\t\tSaudi Circulation 90,000</li>rn\t<li>rn\t\tGCC Circulation 7,717</li>rn\t<li>rn\t\tOther Countries 1,812</li>rn</ul>rn",
+      "summary": "<p>Al Eqtisadiah is an Arabic language daily newspaper with an exclusive focus on economic and business news and analysis.&nbsp;</p>rn<p>&nbsp;</p>rn<p>Al Eqtisadiah is currently the only specialized business and financial newspaper in the Kingdom.</p>rn<p>The newspaper provides news coverage as well as research, analysis and commentary on domestic, regional and international economic and business-related events.&nbsp;</p>rn",
+      "region": "Saudi Arabia",
+      "category": "Daily",
+      "profile": "Economy",
+      "ratecardFiles": [
+        {
+          "fid": 7119,
+          "url": "public://Al Eqtisadiah Rate-card 2013.jpg",
+          "width": 1504,
+          "height": 950
+        }
+      ],
+      "logoUrl": "public://medium/[site-date-mm]/Al Eqtisadiah Cover Page.jpg",
+      "starRating": null,
+      "status": "published",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:02.941Z",
+      "updatedAt": "2026-05-28T00:51:02.941Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1ndp0057col43doiwnx0",
+          "categoryId": "cmpos1ld90041col4i8bfic53",
+          "category": {
+            "id": "cmpos1ld90041col4i8bfic53",
+            "name": "Saudi Arabia",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 110
+          }
+        },
+        {
+          "mediaId": "cmpos1ndp0057col43doiwnx0",
+          "categoryId": "cmpos1ld8001bcol41kumy33a",
+          "category": {
+            "id": "cmpos1ld8001bcol41kumy33a",
+            "name": "Economy",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 7
+          }
+        },
+        {
+          "mediaId": "cmpos1ndp0057col43doiwnx0",
+          "categoryId": "cmpos1ld80015col4co83iywb",
+          "category": {
+            "id": "cmpos1ld80015col4co83iywb",
+            "name": "Daily",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 154
+          }
+        },
+        {
+          "mediaId": "cmpos1ndp0057col43doiwnx0",
+          "categoryId": "cmpos1ld9003acol487gnhevb",
+          "category": {
+            "id": "cmpos1ld9003acol487gnhevb",
+            "name": "Newspaper",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 145
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmpos1row005ccol42zn7pf3l",
+      "legacyId": 9,
+      "title": "AL MAJALLA",
+      "slug": null,
+      "mediaType": "MAGAZINE",
+      "description": "WEEKLY - THE INTERNATIONAL MAGAZINE OF THE ARABS",
+      "summary": null,
+      "region": "Pan Arab",
+      "category": "Weekly",
+      "profile": "Arabic",
+      "ratecardFiles": [],
+      "logoUrl": null,
+      "starRating": null,
+      "status": "unpublished",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:08.529Z",
+      "updatedAt": "2026-05-28T00:51:08.529Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1row005ccol42zn7pf3l",
+          "categoryId": "cmpos1ld9003mcol40imjit9m",
+          "category": {
+            "id": "cmpos1ld9003mcol40imjit9m",
+            "name": "Pan Arab",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 106
+          }
+        },
+        {
+          "mediaId": "cmpos1row005ccol42zn7pf3l",
+          "categoryId": "cmpos1ld8000ecol4dej2tzfj",
+          "category": {
+            "id": "cmpos1ld8000ecol4dej2tzfj",
+            "name": "Arabic",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 11
+          }
+        },
+        {
+          "mediaId": "cmpos1row005ccol42zn7pf3l",
+          "categoryId": "cmpos1ld9004scol4q8gfba6e",
+          "category": {
+            "id": "cmpos1ld9004scol4q8gfba6e",
+            "name": "Weekly",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 159
+          }
+        },
+        {
+          "mediaId": "cmpos1row005ccol42zn7pf3l",
+          "categoryId": "cmpos1ld8002rcol4wum05z50",
+          "category": {
+            "id": "cmpos1ld8002rcol4wum05z50",
+            "name": "Magazine",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 146
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmpos1mih0056col4qmu4z39c",
+      "legacyId": 3,
+      "title": "ARAB NEWS",
+      "slug": null,
+      "mediaType": "NEWSPAPER",
+      "description": "<h1>rn\t<span style=\"font-size: 12px;\">ENGLISH NEWSPAPER DAILY Launched in April of 1975 in Jeddah, Arab News is the first publication of the Group.&nbsp;</span></h1>rn<p>Arab News is a leading English language newspaper in the Kingdom and the GCC.&nbsp;</p>rn<p>The newspaper is of diversified content, covering politics, social issues, economic and business news, as well as sports and entertainment.&nbsp;</p>rn<p>The paper targets English-speaking individuals in the GCC and the Arab world. No major local competitors currently exist.</p>rn<ul>rn\t<li>rn\t\t<p><span style=\"font-size: 12px;\">It is published simultaneously from Jeddah, Riyadh, and Dammam.</span></p>rn\t</li>rn\t<li>rn\t\tArab News is regarded as one of the Saudi newspapers dominated by late Nayef bin Abdulaziz and his brother Salman bin Abdulaziz.</li>rn\t<li>rn\t\tIt offers a variety of news ranging from politics and finance to sports and social events.</li>rn\t<li>rn\t\tIn addition to its domestic distribution in Saudi Arabia, Arab News has a wide range of international distribution, including United Arab Emirates, Kuwait, BahraiThe target audiences of the paper are businessmen, executives and diplomats.n, Qatar, Oman, Near East, North Africa, Europe and the USA.</li>rn\t<li>rn\t\tThe target audiences of the paper are businessmen, executives and diplomats.</li>rn</ul>rn",
+      "summary": "<p>English Newspaper Daily launched in April of 1975 in Jeddah, Arab News is the first publication of the Group.</p>rn<p>Arab News is a leading English language newspaper in the Kingdom and the GCC.</p>rn<p>The newspaper is of diversified content, covering politics, social issues, economic and business news, as well as sports and entertainment.</p>rn<p>The paper targets English-speaking individuals in the GCC and the Arab world. No major local competitors currently exist.</p>rn",
+      "region": "Saudi Arabia",
+      "category": "Daily",
+      "profile": "Trade",
+      "ratecardFiles": [
+        {
+          "fid": 7934,
+          "url": "public://Arab News Ratecard 2014_1.jpg",
+          "width": 2318,
+          "height": 1748
+        }
+      ],
+      "logoUrl": "public://medium/[site-date-mm]/Arab News Cover Page_0.jpg",
+      "starRating": 80,
+      "status": "published",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:01.817Z",
+      "updatedAt": "2026-05-28T00:51:01.817Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1mih0056col4qmu4z39c",
+          "categoryId": "cmpos1ld90041col4i8bfic53",
+          "category": {
+            "id": "cmpos1ld90041col4i8bfic53",
+            "name": "Saudi Arabia",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 110
+          }
+        },
+        {
+          "mediaId": "cmpos1mih0056col4qmu4z39c",
+          "categoryId": "cmpos1ld9004fcol4lld3g80k",
+          "category": {
+            "id": "cmpos1ld9004fcol4lld3g80k",
+            "name": "Trade",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 73
+          }
+        },
+        {
+          "mediaId": "cmpos1mih0056col4qmu4z39c",
+          "categoryId": "cmpos1ld80015col4co83iywb",
+          "category": {
+            "id": "cmpos1ld80015col4co83iywb",
+            "name": "Daily",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 154
+          }
+        },
+        {
+          "mediaId": "cmpos1mih0056col4qmu4z39c",
+          "categoryId": "cmpos1ld9003acol487gnhevb",
+          "category": {
+            "id": "cmpos1ld9003acol487gnhevb",
+            "name": "Newspaper",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 145
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmpos1o8x0058col4faaa5faj",
+      "legacyId": 5,
+      "title": "ARRIYADIAH NEWSPAPER",
+      "slug": null,
+      "mediaType": "NEWSPAPER",
+      "description": "<p>Arabic Sports Newspaper<span>&nbsp;Launched in January of 1987 in Riyadh, Al Riyadiah is an Arabic language daily newspaper with an exclusive focus on sports.</span></p>rn<ul>rn\t<li>rn\t\tArriyadiyah newspaper is published in Saudi Arabia and serves the communities of Saudi Arabia and the Saudi Arabia cities.&nbsp;</li>rn\t<li>rn\t\tArriyadiyah newspaper covers major events in Saudi Arabia and around the world, with sections on global news and local news, business news and political news, Saudi Arabia cultural life and newspaper classified ads.</li>rn\t<li>rn\t\tIt is one of the leading newspaper titles in the Saudi Arabia.</li>rn\t<li>rn\t\t<span>The newspaper provides news coverage as well as research, analysis and commentary on domestic, regional and international sporting events. </span></li>rn\t<li>rn\t\t<span>The paper targets primarily Saudi and GCC youths and sports enthusiasts. No major local competitors currently exist.</span></li>rn</ul>rn<h3>rn\tArriyadiyah Newspaper on the Android tablet</h3>rn<div>rn\tArriyadiyah Newspaper on the Android tablet offers you the ability to download daily editions of the Arriyadiyah Newspaper and access them while offline.</div>rn<ul>rn\t<li>rn\t\tIt also offers the following features:</li>rn\t<li>rn\t\tInnovative and intuitive interface for reading the latest articles</li>rn\t<li>rn\t\tHigh-resolution preview of the newspaper&#39;s pages</li>rn\t<li>rn\t\tBreaking News stories</li>rn\t<li>rn\t\tVideo gallery</li>rn\t<li>rn\t\tMain view with latest articles from Arriyadiyah&rsquo;s newsroom</li>rn\t<li>rn\t\tSharing via Facebook, Twitter and Email</li>rn\t<li>rn\t\tCustomizing the channels on the main view</li>rn\t<li>rn\t\tAbility to add articles to your favorites for later retrieval</li>rn</ul>rn<h3>rn\t<strong>Circulation</strong></h3>rn<ul li=\"\">rn\t<li>rn\t\tTotal Circulation 136,292</li>rn\t<li>rn\t\tSaudi Circulation 130,000</li>rn\t<li>rn\t\tGCC Circulation 4,958</li>rn\t<li>rn\t\tOther Countries 1,334</li>rn</ul>rn",
+      "summary": "<p>Arabic Sports Newspaper&nbsp;Launched in January of 1987 in Riyadh, Al Riyadiah is an Arabic language daily newspaper with an exclusive focus on sports.</p>rn<p>Arriyadiyah newspaper is published in Saudi Arabia and serves the communities of Saudi Arabia and the Saudi Arabia cities.&nbsp;</p>rn<p>Arriyadiyah newspaper covers major events in Saudi Arabia and around the world, with sections on global news and local news, business news and political news, Saudi Arabia cultural life and newspaper classified ads.</p>rn<p>&nbsp;</p>rn",
+      "region": "Saudi Arabia",
+      "category": "Daily",
+      "profile": "Sports",
+      "ratecardFiles": [
+        {
+          "fid": 7966,
+          "url": "public://Arriyadiah Ratecard 2014.jpg",
+          "width": 1616,
+          "height": 1164
+        }
+      ],
+      "logoUrl": "public://medium/[site-date-mm]/Arriyadiah Cover Page_0.jpg",
+      "starRating": null,
+      "status": "published",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:04.065Z",
+      "updatedAt": "2026-05-28T00:51:04.065Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1o8x0058col4faaa5faj",
+          "categoryId": "cmpos1ld90041col4i8bfic53",
+          "category": {
+            "id": "cmpos1ld90041col4i8bfic53",
+            "name": "Saudi Arabia",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 110
+          }
+        },
+        {
+          "mediaId": "cmpos1o8x0058col4faaa5faj",
+          "categoryId": "cmpos1ld90045col4zl8l88fc",
+          "category": {
+            "id": "cmpos1ld90045col4zl8l88fc",
+            "name": "Sports",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 12
+          }
+        },
+        {
+          "mediaId": "cmpos1o8x0058col4faaa5faj",
+          "categoryId": "cmpos1ld80015col4co83iywb",
+          "category": {
+            "id": "cmpos1ld80015col4co83iywb",
+            "name": "Daily",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 154
+          }
+        },
+        {
+          "mediaId": "cmpos1o8x0058col4faaa5faj",
+          "categoryId": "cmpos1ld9003acol487gnhevb",
+          "category": {
+            "id": "cmpos1ld9003acol487gnhevb",
+            "name": "Newspaper",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 145
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmpos1sjs005dcol4a65p09q0",
+      "legacyId": 10,
+      "title": "BASIM",
+      "slug": null,
+      "mediaType": "MAGAZINE",
+      "description": "<ul>rn\t<li>rn\t\tThe Children Weekly Magazine Launched in September of 1987 in Riyadh, Basim, published in Arabia, focuses on educational and entertainment contents targeting younger generations.</li>rn\t<li>rn\t\tThe weekly magazine targets the youth (between the ages of 4 and 15) in the Kingdom.</li>rn\t<li>rn\t\tBasim magazine has undergone so many changes and renewals in the magazine sections, characters, look and feel, when the studio for the magazine opened in Cairo.&nbsp;</li>rn</ul>rn<h3>rn\tExperience Basim magazine on the iPad</h3>rn<ul>rn\t<li>rn\t\tThis application will give you the ability to purchase each month&#39;s digital issue through iTunes and read and store as many digital issues as you&rsquo;d like within the same app.&nbsp;</li>rn\t<li>rn\t\tThis app allows you to buy single issues only.</li>rn</ul>rn<h3>rn\t<strong>Circulation</strong></h3>rn<ul>rn\t<li>rn\t\tTotal Circulation 41,625</li>rn\t<li>rn\t\tSaudi Arabia 30,000</li>rn\t<li>rn\t\tGCC 9,891</li>rn\t<li>rn\t\tOther Countries 1,734</li>rn</ul>rn",
+      "summary": "<p>The Children Weekly Magazine Launched in September of 1987 in Riyadh, Basim, published in Arabia, focuses on educational and entertainment contents targeting younger generations.&nbsp;</p>rn<p>The weekly magazine targets the youth (between the ages of 4 and 15) in the Kingdom.</p>rn<p>Basim magazine has undergone so many changes and renewals in the magazine sections, characters, look and feel, when the studio for the magazine opened in Cairo.&nbsp;</p>rn",
+      "region": "Pan Arab",
+      "category": "Monthly",
+      "profile": "Arabic",
+      "ratecardFiles": [
+        {
+          "fid": 7965,
+          "url": "public://Basim Ratecard - 2014.jpg",
+          "width": 1258,
+          "height": 1398
+        }
+      ],
+      "logoUrl": "public://medium/[site-date-mm]/Basim Cover Page_0.jpg",
+      "starRating": null,
+      "status": "published",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:09.640Z",
+      "updatedAt": "2026-05-28T00:51:09.640Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1sjs005dcol4a65p09q0",
+          "categoryId": "cmpos1ld9003mcol40imjit9m",
+          "category": {
+            "id": "cmpos1ld9003mcol40imjit9m",
+            "name": "Pan Arab",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 106
+          }
+        },
+        {
+          "mediaId": "cmpos1sjs005dcol4a65p09q0",
+          "categoryId": "cmpos1ld8000ecol4dej2tzfj",
+          "category": {
+            "id": "cmpos1ld8000ecol4dej2tzfj",
+            "name": "Arabic",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 11
+          }
+        },
+        {
+          "mediaId": "cmpos1sjs005dcol4a65p09q0",
+          "categoryId": "cmpos1ld80031col46hybouyt",
+          "category": {
+            "id": "cmpos1ld80031col46hybouyt",
+            "name": "Monthly",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 155
+          }
+        },
+        {
+          "mediaId": "cmpos1sjs005dcol4a65p09q0",
+          "categoryId": "cmpos1ld8002rcol4wum05z50",
+          "category": {
+            "id": "cmpos1ld8002rcol4wum05z50",
+            "name": "Magazine",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 146
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmpos1u9k005fcol4c2wedwuk",
+      "legacyId": 15,
+      "title": "HIA MAGAZINE",
+      "slug": null,
+      "mediaType": "MAGAZINE",
+      "description": "<p>Hia Magazine is a leading Arabic monthly title issued by the &quot;Saudi Research &amp; Publishing Company&quot; Launched in 1992 and has established itself as the number one choice of the affluent Arab woman.&nbsp;</p>rn<p>The Magazine, focus on the female lifestyle in the Arab world.&nbsp;</p>rn<ul>rn\t<li>rn\t\tIt contains articles and information of interest to women, including fashion, beautify, health, and others.&nbsp;As such, the magazine&rsquo;s target audience is the adult female population of the Kingdom and the Arab world.&nbsp;</li>rn\t<li>rn\t\tBeautifully designed and printed, the editorial addresses subjects of particular interest to ladies of style and wealth.</li>rn\t<li>rn\t\tThe topics covered include haute couture, beauty, watches, jewellery, health, travel, art, auctions, community service and much more.</li>rn\t<li>rn\t\tParticular attention is paid to the business women of today. It also has contributions from renowned literary &amp; economic figures.</li>rn\t<li>rn\t\tIn their &ldquo;Dress for Success&rdquo; editorial, a Bochic Carved Jet and Diamond Bracelet is featured in the center of the page.</li>rn</ul>rn<h3>rn\t<strong>Circulation</strong></h3>rn<ul>rn\t<li>rn\t\tTotal Circulation 51,149</li>rn\t<li>rn\t\tSaudi Arabia 35,000</li>rn\t<li>rn\t\tGCC 11,594</li>rn\t<li>rn\t\tOther Countries 4,555</li>rn</ul>rn",
+      "summary": "<p>Hia Magazine is a leading Arabic monthly title issued by the &quot;Saudi Research &amp; Publishing Company&quot; Launched in 1992 and has established itself as the number one choice of the affluent Arab woman.&nbsp;</p>rn<p>It contains articles and information of interest to women, including fashion, beautify, health, and others.&nbsp;As such, the magazine&rsquo;s target audience is the adult female population of the Kingdom and the Arab world.&nbsp;</p>rn<p>&nbsp;</p>rn",
+      "region": "Pan Arab",
+      "category": "Monthly",
+      "profile": "Style",
+      "ratecardFiles": [
+        {
+          "fid": 7977,
+          "url": "public://Hia Ratecard 2014.jpg",
+          "width": 1230,
+          "height": 1666
+        }
+      ],
+      "logoUrl": "public://medium/[site-date-mm]/Hia Cover Page_0.jpg",
+      "starRating": null,
+      "status": "published",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:11.864Z",
+      "updatedAt": "2026-05-28T00:51:11.864Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1u9k005fcol4c2wedwuk",
+          "categoryId": "cmpos1ld9003mcol40imjit9m",
+          "category": {
+            "id": "cmpos1ld9003mcol40imjit9m",
+            "name": "Pan Arab",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 106
+          }
+        },
+        {
+          "mediaId": "cmpos1u9k005fcol4c2wedwuk",
+          "categoryId": "cmpos1ld90046col4n57q1m8m",
+          "category": {
+            "id": "cmpos1ld90046col4n57q1m8m",
+            "name": "Style",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 31
+          }
+        },
+        {
+          "mediaId": "cmpos1u9k005fcol4c2wedwuk",
+          "categoryId": "cmpos1ld80031col46hybouyt",
+          "category": {
+            "id": "cmpos1ld80031col46hybouyt",
+            "name": "Monthly",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 155
+          }
+        },
+        {
+          "mediaId": "cmpos1u9k005fcol4c2wedwuk",
+          "categoryId": "cmpos1ld8002rcol4wum05z50",
+          "category": {
+            "id": "cmpos1ld8002rcol4wum05z50",
+            "name": "Magazine",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 146
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmpos1pyz005acol4yduenu1h",
+      "legacyId": 7,
+      "title": "MALAYALAM NEWS",
+      "slug": null,
+      "mediaType": "NEWSPAPER",
+      "description": "<p>Daily Malayalam Newspaper<span>&nbsp;Launched in September of 1994 in Riyadh, Malayalam is the only daily newspaper in the Kingdom to be published in the Malayalam language (specific to the Karallas area of India). </span></p>rn<p><span>The newspaper is of general content, providing news on political, social, sporting, economics and other developments, primarily on central Asian countries. </span></p>rn<p>Malayalam Newspaper<span>&nbsp;targets Indian individuals residing in the Kingdom. Malayalam is currently the only Malayalam language newspaper in the Kingdom.</span></p>rn<h3>rn\t<strong>Circulation</strong></h3>rn<ul>rn\t<li>rn\t\tTotal Circulation 49,647</li>rn\t<li>rn\t\tSaudi Arabia 40,000</li>rn\t<li>rn\t\tGCC 9,451</li>rn\t<li>rn\t\tOther Countries 223</li>rn</ul>rn",
+      "summary": "<p>Daily Malayalam Newspaper&nbsp;Launched in September of 1994 in Riyadh, Malayalam is the only daily newspaper in the Kingdom to be published in the Malayalam language (specific to the Karallas area of India).&nbsp;</p>rn<p>The newspaper is of general content, providing news on political, social, sporting, economics and other developments, primarily on central Asian countries.&nbsp;</p>rn<p>Malayalam Newspaper&nbsp;targets Indian individuals residing in the Kingdom. Malayalam is currently the only Malayalam language newspaper in the Kingdom.</p>rn",
+      "region": "Saudi Arabia",
+      "category": "Daily",
+      "profile": "Malayalam",
+      "ratecardFiles": [
+        {
+          "fid": 7952,
+          "url": "public://Malayalam News Ratecard - 2014.jpg",
+          "width": 1596,
+          "height": 1136
+        }
+      ],
+      "logoUrl": "public://medium/[site-date-mm]/Malayalam News Cover Page_0.jpg",
+      "starRating": 100,
+      "status": "published",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:06.299Z",
+      "updatedAt": "2026-05-28T00:51:06.299Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1pyz005acol4yduenu1h",
+          "categoryId": "cmpos1ld90041col4i8bfic53",
+          "category": {
+            "id": "cmpos1ld90041col4i8bfic53",
+            "name": "Saudi Arabia",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 110
+          }
+        },
+        {
+          "mediaId": "cmpos1pyz005acol4yduenu1h",
+          "categoryId": "cmpos1ld8002ucol4v4iu2t2b",
+          "category": {
+            "id": "cmpos1ld8002ucol4v4iu2t2b",
+            "name": "Malayalam",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 15
+          }
+        },
+        {
+          "mediaId": "cmpos1pyz005acol4yduenu1h",
+          "categoryId": "cmpos1ld80015col4co83iywb",
+          "category": {
+            "id": "cmpos1ld80015col4co83iywb",
+            "name": "Daily",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 154
+          }
+        },
+        {
+          "mediaId": "cmpos1pyz005acol4yduenu1h",
+          "categoryId": "cmpos1ld9003acol487gnhevb",
+          "category": {
+            "id": "cmpos1ld9003acol487gnhevb",
+            "name": "Newspaper",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 145
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmpos1qtw005bcol49ujb40vt",
+      "legacyId": 8,
+      "title": "SAYIDATY ENGLISH",
+      "slug": null,
+      "mediaType": "MAGAZINE",
+      "description": "<h2>rn\t<span style=\"font-size: 12px;\">Sayidaty English is the English version of the Arabic title Sayidaty.&nbsp;</span></h2>rn<ul>rn\t<li>rn\t\tThis is a lifestyle magazine focusing on personal growth, marriage tribulations and careers, with expanded reporting on fahion, beauty, health and fitness.&nbsp;</li>rn\t<li>rn\t\tSayidaty portrays the Arab world and redefines the real life sectors with inspirational true stories, as it stylishly combines practical with fascinating and insightful issues to deliver one of the best selling women&#39;&#39;s magazines available.</li>rn\t<li>rn\t\t&quot;Sayidaty&quot; Magazine released the first issue of &quot;Sayidaty&quot; in English after more than 27 years of the release of &quot;Sayidaty&quot; in Arabic, which circulates around 150.000 copies weekly, published by Saudi Research &amp; Publishing Company .&nbsp;</li>rn\t<li>rn\t\t&quot;The English version of &quot;Sayidaty&quot; took upon itself to be an exact reflection of the Arabic version of &quot;Sayidaty&quot;, but in consistency with the orientations of the English-speaking families in the Arab world, and the Arabs who, for one reason or another, can not speak Arabic, and also the non-Arabic-speaking people who live in Arab or Western countries.&nbsp;</li>rn\t<li>rn\t\tThe Magazine will reflect the present situation of foreign communities in Arab countries, and provide them with an overview on the reality of Arab communities in which they live.</li>rn\t<li>rn\t\tIn short, it will serve as a cultural bridge connecting the East with the West, the originality and modernity, and the different human cultures.</li>rn\t<li>rn\t\tThe English version of &quot;Sayidaty&quot; has drawn attention just before its release ceremony, when the people of United Arab Emirates saw a new visitor in town, in the form of advertising billboards of &quot;Sayidaty&quot; in English, of different sizes and shapes, which decorated the streets.</li>rn\t<li>rn\t\tSayidaty Fashion, Sayidaty Decor, Sayidaty &amp; your baby, in addition to special supplements issued with &quot;Sayidaty&quot;, such as &quot;Saudi Sayidaty&quot;, which offers its services to the working women in Saudi Arabia, the supplement on satellite TV programs, Ramadan Kitchen supplements, perfumes and gifts supplements, and other specialized Arab supplements.</li>rn</ul>rn<h2>rn\tEditorial Content</h2>rn<ul>rn\t<li>rn\t\tBeauty &amp; Fashion Section, Celebrity Section, Society, Zoom IN, Articles, From Every Where, Investigations, Stock &amp; Investment, Short Story, Library, Health, Your Home, Our Sweethearts</li>rn\t<li>rn\t\tPicnic, Dreams, Special Corner, Soul Talk, Kitchen, Internet, Study, Market Tour, Consultancy, From you and US, Competition, Think &amp; Win, Horoscope, Best Shot</li>rn\t<li>rn\t\tArticles from the most famous writers as Ms. Souad Al Sabah, Mr. Abdullah Bajubeer and Mr. Karim Al Iraqi.</li>rn</ul>rn",
+      "summary": "<p><strong>Sayidaty English is the English version of the Arabic title Sayidaty.&nbsp;</strong></p>rn<p>This is a lifestyle magazine focusing on personal growth, marriage tribulations and careers, with expanded reporting on fahion, beauty, health and fitness.&nbsp;</p>rn<p>&quot;Sayidaty&quot; Magazine released the first issue of &quot;Sayidaty&quot; in English after more than 27 years of the release of &quot;Sayidaty&quot; in Arabic, which circulates around 150.000 copies weekly, published by Saudi Research &amp; Publishing Company .&nbsp;</p>rn<p>The Magazine will reflect the present situation of foreign communities in Arab countries, and provide them with an overview on the reality of Arab communities in which they live.</p>rn",
+      "region": "Pan Arab",
+      "category": "Weekly",
+      "profile": "Arabic",
+      "ratecardFiles": [
+        {
+          "fid": 7996,
+          "url": "public://Sayidaty English Ratecard - 2014.jpg",
+          "width": 2131,
+          "height": 1362
+        }
+      ],
+      "logoUrl": "public://medium/[site-date-mm]/Sayidaty English Cover Page.jpg",
+      "starRating": null,
+      "status": "published",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:07.412Z",
+      "updatedAt": "2026-05-28T00:51:07.412Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1qtw005bcol49ujb40vt",
+          "categoryId": "cmpos1ld9003mcol40imjit9m",
+          "category": {
+            "id": "cmpos1ld9003mcol40imjit9m",
+            "name": "Pan Arab",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 106
+          }
+        },
+        {
+          "mediaId": "cmpos1qtw005bcol49ujb40vt",
+          "categoryId": "cmpos1ld8000ecol4dej2tzfj",
+          "category": {
+            "id": "cmpos1ld8000ecol4dej2tzfj",
+            "name": "Arabic",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 11
+          }
+        },
+        {
+          "mediaId": "cmpos1qtw005bcol49ujb40vt",
+          "categoryId": "cmpos1ld9004scol4q8gfba6e",
+          "category": {
+            "id": "cmpos1ld9004scol4q8gfba6e",
+            "name": "Weekly",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 159
+          }
+        },
+        {
+          "mediaId": "cmpos1qtw005bcol49ujb40vt",
+          "categoryId": "cmpos1ld8002rcol4wum05z50",
+          "category": {
+            "id": "cmpos1ld8002rcol4wum05z50",
+            "name": "Magazine",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 146
+          }
+        }
+      ]
+    },
+    {
+      "id": "cmpos1p3v0059col45rfcjkhg",
+      "legacyId": 6,
+      "title": "URDU NEWS",
+      "slug": null,
+      "mediaType": "NEWSPAPER",
+      "description": "<h1>rn\t<span style=\"font-size: 12px;\">Urdu Newspaper launched in Kingdom of Saudi Arabia in 1994 Published by Saudi Research &amp; Publishing Company.</span></h1>rn<p>It is The First Urdu Daily Newspaper in the Arab World.</p>rn<p>Pakistani People are fond of newspapers and they always try to read newspapers even when they are eating meal in hotels or taking tea at some restaurants.</p>rn<p>Some important and popular Pakistani Urdu Newspapers include Daily Jang, Nawaiwaqt, Khabrain, Ausaf, Asas, Express, Pakistan, Awam, Jasarat, Naya Akhbar, Jinnah, Taqat, Ummat, Hazara News, Al Akhbar, Muqadama, Bad e Shimal, Shimal News Hazara, Mahasib, and many more are famous Urdu Newspapers of Pakistan.</p>rn<p>There are many newspapers published in Pakistan in different languages but Urdu and English newspapers are very popular among Pakistani people specially urdu newspapers as urdu is our national language and everyone can understand it easily.&nbsp;</p>rn<p>Urdu Newspaper targets Urdu readers and no other newspaper in KSA reach this target.</p>rn<h2>rn\t<strong>Circulation</strong></h2>rn<ul>rn\t<li>rn\t\tTotal Circulation 69,124</li>rn\t<li>rn\t\tSaudi Circulation 60,000</li>rn\t<li>rn\t\tGCC Circulation 8,862</li>rn\t<li>rn\t\tOther Countries 262</li>rn</ul>rn<p>&nbsp;</p>rn",
+      "summary": "<p><strong>Urdu Newspaper launched in Kingdom of Saudi Arabia in 1994 Published by Saudi Research &amp; Publishing Company.</strong></p>rn<p>It is The First Urdu Daily Newspaper in the Arab World.</p>rn<p>Pakistani People are fond of newspapers and they always try to read newspapers even when they are eating meal in hotels or taking tea at some restaurants.</p>rn<p>There are many newspapers published in Pakistan in different languages but Urdu and English newspapers are very popular among Pakistani people specially urdu newspapers as urdu is our national language and everyone can understand it easily.&nbsp;</p>rn<p>Urdu Newspaper targets Urdu readers and no other newspaper in KSA reach this target.</p>rn",
+      "region": "Saudi Arabia",
+      "category": "Daily",
+      "profile": "Urdu",
+      "ratecardFiles": [
+        {
+          "fid": 7942,
+          "url": "public://Urdu News Ratecard 2014.jpg",
+          "width": 1658,
+          "height": 1202
+        }
+      ],
+      "logoUrl": "public://medium/[site-date-mm]/Urdu News Cover Page_0.jpg",
+      "starRating": 60,
+      "status": "published",
+      "supplierId": "cmpos1lop004wcol4d5mx84fz",
+      "legacyCreated": null,
+      "legacyChanged": null,
+      "createdAt": "2026-05-28T00:51:05.179Z",
+      "updatedAt": "2026-05-28T00:51:05.179Z",
+      "supplier": {
+        "id": "cmpos1lop004wcol4d5mx84fz",
+        "companyName": "AL-KHALEEJIAH ADVERTISING AND PUBLIC RELATIONS CO. LTD.",
+        "tradingName": null,
+        "crn": null,
+        "vatNumber": null,
+        "billingAddress": null,
+        "website": null,
+        "logo": null,
+        "status": "PENDING_VERIFICATION",
+        "legacyId": 1,
+        "primaryContactId": "cmpos1kpb0000col43pvs7jzk",
+        "createdAt": "2026-05-28T00:51:00.745Z",
+        "updatedAt": "2026-05-28T00:51:00.745Z"
+      },
+      "categories": [
+        {
+          "mediaId": "cmpos1p3v0059col45rfcjkhg",
+          "categoryId": "cmpos1ld90041col4i8bfic53",
+          "category": {
+            "id": "cmpos1ld90041col4i8bfic53",
+            "name": "Saudi Arabia",
+            "type": "REGION",
+            "parentId": null,
+            "legacyTid": 110
+          }
+        },
+        {
+          "mediaId": "cmpos1p3v0059col45rfcjkhg",
+          "categoryId": "cmpos1ld9004pcol48k6xvku4",
+          "category": {
+            "id": "cmpos1ld9004pcol48k6xvku4",
+            "name": "Urdu",
+            "type": "PROFILE",
+            "parentId": null,
+            "legacyTid": 13
+          }
+        },
+        {
+          "mediaId": "cmpos1p3v0059col45rfcjkhg",
+          "categoryId": "cmpos1ld80015col4co83iywb",
+          "category": {
+            "id": "cmpos1ld80015col4co83iywb",
+            "name": "Daily",
+            "type": "CATEGORY",
+            "parentId": null,
+            "legacyTid": 154
+          }
+        },
+        {
+          "mediaId": "cmpos1p3v0059col45rfcjkhg",
+          "categoryId": "cmpos1ld9003acol487gnhevb",
+          "category": {
+            "id": "cmpos1ld9003acol487gnhevb",
+            "name": "Newspaper",
+            "type": "MEDIA_TYPE",
+            "parentId": null,
+            "legacyTid": 145
+          }
+        }
+      ]
+    }
+  ],
+  "persons": [
+    {
+      "id": "cmpos1kpb0000col43pvs7jzk",
+      "firstName": "PlanOne",
+      "lastName": "Media",
+      "jobTitle": "Default Contact",
+      "email": null,
+      "phone": null,
+      "mobile": null,
+      "avatar": null,
+      "isDefault": true,
+      "supplierId": null,
+      "createdAt": "2026-05-28T00:50:59.471Z",
+      "updatedAt": "2026-05-28T00:50:59.471Z"
+    }
+  ]
+}

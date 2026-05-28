@@ -1,0 +1,702 @@
+[
+  {
+    "name": "Abha",
+    "type": "REGION"
+  },
+  {
+    "name": "Advertising",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Affluent",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Airport",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Al Ihsa",
+    "type": "REGION"
+  },
+  {
+    "name": "Al Jouf",
+    "type": "REGION"
+  },
+  {
+    "name": "Al Jubail",
+    "type": "REGION"
+  },
+  {
+    "name": "Al Khafji",
+    "type": "REGION"
+  },
+  {
+    "name": "Al Kharj",
+    "type": "REGION"
+  },
+  {
+    "name": "Al Majmaa",
+    "type": "REGION"
+  },
+  {
+    "name": "Al Qurayat",
+    "type": "REGION"
+  },
+  {
+    "name": "Al Zulfi",
+    "type": "REGION"
+  },
+  {
+    "name": "Apple",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Arabic",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Arar",
+    "type": "REGION"
+  },
+  {
+    "name": "Architects",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Asia",
+    "type": "REGION"
+  },
+  {
+    "name": "Asir",
+    "type": "REGION"
+  },
+  {
+    "name": "Audio",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Automobile",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Baha",
+    "type": "REGION"
+  },
+  {
+    "name": "Bahrain",
+    "type": "REGION"
+  },
+  {
+    "name": "Bahrain Causeway",
+    "type": "REGION"
+  },
+  {
+    "name": "Bal Jorashi",
+    "type": "REGION"
+  },
+  {
+    "name": "beauty",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Bi-monthly",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Broadcast",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Business",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Canada",
+    "type": "REGION"
+  },
+  {
+    "name": "Central Region",
+    "type": "REGION"
+  },
+  {
+    "name": "Classified",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Communication",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Conservative",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Construction",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Cooking",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Corporate Gift",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "Credit-card",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Culture",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Current affairs",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Dahran",
+    "type": "REGION"
+  },
+  {
+    "name": "Daily",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Dammam",
+    "type": "REGION"
+  },
+  {
+    "name": "Decor",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Designers",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Directory",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Eastern region",
+    "type": "REGION"
+  },
+  {
+    "name": "Economy",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Education",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Egypt",
+    "type": "REGION"
+  },
+  {
+    "name": "Engineers",
+    "type": "PROFILE"
+  },
+  {
+    "name": "English",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Entertainment",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Escalator",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "essya",
+    "type": "REGION"
+  },
+  {
+    "name": "Europe",
+    "type": "REGION"
+  },
+  {
+    "name": "Events",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Executive",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Family",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Fashion",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Female",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Females",
+    "type": "PROFILE"
+  },
+  {
+    "name": "French",
+    "type": "PROFILE"
+  },
+  {
+    "name": "GCC",
+    "type": "REGION"
+  },
+  {
+    "name": "Giganto",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Hail",
+    "type": "REGION"
+  },
+  {
+    "name": "Health",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Hollywood",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Home",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Hospital",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Ibqiq",
+    "type": "REGION"
+  },
+  {
+    "name": "In flight",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Inside Malls",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Interactive",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "Interior Designers",
+    "type": "PROFILE"
+  },
+  {
+    "name": "International",
+    "type": "REGION"
+  },
+  {
+    "name": "Investment",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Islam",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Islamic",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Jeddah",
+    "type": "REGION"
+  },
+  {
+    "name": "Jizan",
+    "type": "REGION"
+  },
+  {
+    "name": "Jordan",
+    "type": "REGION"
+  },
+  {
+    "name": "Journalism",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Jubail",
+    "type": "REGION"
+  },
+  {
+    "name": "KAUST",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Khaleej Music",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Khamis",
+    "type": "REGION"
+  },
+  {
+    "name": "Khobar",
+    "type": "REGION"
+  },
+  {
+    "name": "Kids",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Kuwait",
+    "type": "REGION"
+  },
+  {
+    "name": "Lamppost",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Language",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Lebanon",
+    "type": "REGION"
+  },
+  {
+    "name": "LED Screen",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Levant",
+    "type": "REGION"
+  },
+  {
+    "name": "Lists",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Luxury",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Mac",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Madinah",
+    "type": "REGION"
+  },
+  {
+    "name": "Magazine",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "Mahael",
+    "type": "REGION"
+  },
+  {
+    "name": "Makkah",
+    "type": "REGION"
+  },
+  {
+    "name": "Malayalam",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Male",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Males",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Malls",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Marketing",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Megacom",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Middle East",
+    "type": "REGION"
+  },
+  {
+    "name": "Monthly",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Mother",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Mothers",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Movies",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Mupi",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Music",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Mzahmieh",
+    "type": "REGION"
+  },
+  {
+    "name": "Nairia",
+    "type": "REGION"
+  },
+  {
+    "name": "Najran",
+    "type": "REGION"
+  },
+  {
+    "name": "Newspaper",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "North Africa",
+    "type": "REGION"
+  },
+  {
+    "name": "nothing",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "O.Rufaidah",
+    "type": "REGION"
+  },
+  {
+    "name": "Oman",
+    "type": "REGION"
+  },
+  {
+    "name": "Online Magazine",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Online Newspaper",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Other cities or regions",
+    "type": "REGION"
+  },
+  {
+    "name": "Other countries",
+    "type": "REGION"
+  },
+  {
+    "name": "Out of home (Indoor)",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "Out of home (Outdoor)",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "Outdoor",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Pan Arab",
+    "type": "REGION"
+  },
+  {
+    "name": "Poetry",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Politics",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Qassim",
+    "type": "REGION"
+  },
+  {
+    "name": "Qatar",
+    "type": "REGION"
+  },
+  {
+    "name": "Qatif",
+    "type": "REGION"
+  },
+  {
+    "name": "Quarterly",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Radio",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Radio",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "Ras Tanoura",
+    "type": "REGION"
+  },
+  {
+    "name": "Real-Estate",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Reality",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Recipes",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Religious",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Riyadh",
+    "type": "REGION"
+  },
+  {
+    "name": "Saudi Arabia",
+    "type": "REGION"
+  },
+  {
+    "name": "Semi Annually",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Series",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Southern region",
+    "type": "REGION"
+  },
+  {
+    "name": "Sports",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Style",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Superstructure",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Syria",
+    "type": "REGION"
+  },
+  {
+    "name": "Tabloid",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "Tabuk",
+    "type": "REGION"
+  },
+  {
+    "name": "Taif",
+    "type": "REGION"
+  },
+  {
+    "name": "Teen",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Telecast",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Telecommunication",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Trade",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Train station",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Travel and tourism",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Truck",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "TV",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "TV",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "TV Program",
+    "type": "MEDIA_TYPE"
+  },
+  {
+    "name": "UAE",
+    "type": "REGION"
+  },
+  {
+    "name": "Umlaj",
+    "type": "REGION"
+  },
+  {
+    "name": "University",
+    "type": "PROFILE"
+  },
+  {
+    "name": "Urdu",
+    "type": "PROFILE"
+  },
+  {
+    "name": "USA",
+    "type": "REGION"
+  },
+  {
+    "name": "Website",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Weekly",
+    "type": "CATEGORY"
+  },
+  {
+    "name": "Western Region",
+    "type": "REGION"
+  },
+  {
+    "name": "Yemen",
+    "type": "REGION"
+  },
+  {
+    "name": "Youth",
+    "type": "PROFILE"
+  }
+]
