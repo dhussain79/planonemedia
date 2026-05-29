@@ -118,7 +118,7 @@ export class PricingEngine {
     const taxAmount = 0;
     const total = round(afterPromo + platformFee + taxAmount);
 
-    const unitPriceAfter = round((afterPromo - promoDiscountAmount) / (quantity * getDurationDays(startDate, endDate)));
+    const unitPriceAfter = round(afterPromo / (quantity * getDurationDays(startDate, endDate)));
 
     const now = new Date();
     const cacheKey = `price:${assetId}:${startDate.toISOString()}:${endDate.toISOString()}:${quantity}:${promoCode || "none"}`;

@@ -187,3 +187,24 @@ cp -r skills/{skill-name} ~/.claude/skills/
 Add the skill to project knowledge or paste SKILL.md contents into the conversation.
 
 If the skill requires network access, instruct users to add required domains at `claude.ai/settings/capabilities`.
+
+## Conversation Logging
+
+Every AI agent session MUST log its work for future recall.
+
+### Protocol
+
+1. **Before starting work**, read the latest entry in `.conversations/` (highest-numbered timestamp file) to understand current state
+2. **After completing a session**, create a new entry in `.conversations/` with:
+   - Date and agent details
+   - Summary of accomplishments
+   - List of files modified
+   - Architecture decisions and rationale
+   - **Explicit list of incomplete or pending tasks**
+   - **Explicit list of known issues or bugs**
+
+### Format
+
+Use pattern `YYYY-MM-DD-HHmm.md` with sections: Summary, Files Modified, Decisions, Incomplete / Pending, Known Issues.
+
+See `.conversations/README.md` for full protocol details.

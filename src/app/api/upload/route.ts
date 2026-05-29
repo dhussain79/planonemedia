@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/lib/auth";
+import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 
 export async function POST(req: Request) {
   const session = await auth();
@@ -21,9 +22,7 @@ export async function POST(req: Request) {
     const key = `uploads/${session.user.id}/${Date.now()}-${Math.random().toString(36).slice(2)}.${ext}`;
 
     if (process.env.R2_ACCESS_KEY_ID) {
-      // @ts-ignore - dynamic import for optional R2 dependency
-      const mod = await import("@aws-sdk/client-s3");
-      const s3 = new mod.S3Client({
+      const s3 = new S3Client({
         region: "auto",
         endpoint: process.env.R2_ENDPOINT,
         credentials: {
@@ -32,7 +31,7 @@ export async function POST(req: Request) {
         },
       });
       await s3.send(
-        new mod.PutObjectCommand({
+        new PutObjectCommand({
           Bucket: process.env.R2_BUCKET_NAME,
           Key: key,
           Body: buffer,

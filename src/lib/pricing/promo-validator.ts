@@ -32,20 +32,17 @@ export async function validatePromoCode(
     return { valid: false, reason: "Promo code usage limit reached", discountType: null, discountValue: 0, discountAmount: 0, promoId: null };
   }
 
-  const usageByUser = await prisma.promoCode.findUnique({
-    where: { id: promo.id },
-  });
-
-  const userBookingsWithPromo = await prisma.booking.count({
-    where: {
-      buyerId,
-      // Note: in a real system you'd track promo usage per user in a separate table
-      // For now we rely on the perUserLimit from the promo code
-    },
-  });
-
-  if (promo.perUserLimit > 0 && userBookingsWithPromo >= promo.perUserLimit) {
-    return { valid: false, reason: "Per-user limit reached for this promo code", discountType: null, discountValue: 0, discountAmount: 0, promoId: null };
+  if (promo.perUserLimit > 0) {
+    const userUsageCount = await prisma.booking.count({
+      where: {
+        buyerId,
+        promoCodeId: promo.id,
+        status: { in: ["DRAFT", "CONFIRMED", "ACTIVE", "COMPLETED"] },
+      },
+    });
+    if (userUsageCount >= promo.perUserLimit) {
+      return { valid: false, reason: "Per-user limit reached for this promo code", discountType: null, discountValue: 0, discountAmount: 0, promoId: null };
+    }
   }
 
   if (promo.minSpend > 0 && currentSpend < promo.minSpend) {

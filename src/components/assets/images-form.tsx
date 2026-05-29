@@ -105,6 +105,7 @@ export function ImagesForm({ form }: ImagesFormProps) {
           {images.map((img, index) => (
             <div key={index} className="flex items-center gap-3 rounded-md border p-3">
               <GripVertical className="h-4 w-4 text-muted-foreground cursor-move" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img src={img.url} alt={img.alt || ""} className="h-12 w-12 rounded object-cover" />
               <div className="flex-1 min-w-0">
                 <p className="text-sm truncate">{img.key}</p>

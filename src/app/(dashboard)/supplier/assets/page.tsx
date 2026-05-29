@@ -54,6 +54,7 @@ export default function SellerAssetsPage() {
         const images = row.original.images;
         const thumb = Array.isArray(images) ? images.find((i: any) => i.isThumbnail) || images[0] : null;
         return thumb ? (
+          // eslint-disable-next-line @next/next/no-img-element
           <img src={thumb.url} alt="" className="h-10 w-10 rounded object-cover" />
         ) : (
           <div className="h-10 w-10 rounded bg-muted flex items-center justify-center text-xs text-muted-foreground">N/A</div>
