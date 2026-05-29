@@ -1,0 +1,9 @@
+{
+  "name": "drupal-local-deploy",
+  "description": "Expert guidance for deploying Drupal sites locally from a backup. Covers Drupal 7 (no Composer, .zip archives, Drush 8) and D8+ (Composer, Drush 9+). Database import, files sync, Drush post-restore commands, environment config (Docker/Lando/DDEV/XAMPP), and troubleshooting.",
+  "version": "1.0.0",
+  "tags": ["drupal", "backup", "deploy", "local-dev", "drush", "lando", "ddev", "migration"],
+  "author": "opencode",
+  "license": "MIT",
+  "documentation": "SKILL.md"
+}

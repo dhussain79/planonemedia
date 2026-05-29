@@ -1,0 +1,22 @@
+# DDEV
+/.ddev/.dbimageBuild
+/.ddev/.webimageBuild
+/.ddev/db_snapshots
+/.ddev/mutagen
+
+# Environment
+.env
+.env.local
+
+# IDE
+/.idea
+/.vscode
+/*.code-workspace
+
+# Drupal build artifacts
+web/sites/default/files/
+web/sites/default/services.yml
+
+# OS
+.DS_Store
+Thumbs.db

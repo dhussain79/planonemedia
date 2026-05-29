@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "drupal": {
+      "command": "C:\\Users\\macro\\OneDrive\\Click\\Opencode\\PlanOneMedia\\scripts\\mcp-server.bat",
+      "args": []
+    }
+  }
+}
