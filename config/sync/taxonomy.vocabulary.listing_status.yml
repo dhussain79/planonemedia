@@ -1,0 +1,9 @@
+uuid: 39bb46f8-178d-4e3a-ab7d-fd7cb342f2cd
+langcode: en
+status: true
+dependencies: {  }
+name: 'Listing Status'
+vid: listing_status
+description: 'Availability status of media listings'
+weight: 0
+new_revision: false

@@ -1,0 +1,24 @@
+uuid: 176a5820-5a6c-46cb-a6b7-b0273d5e347f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portfolio
+    - node.type.media_listing
+    - node.type.supplier_profile
+id: node.supplier_profile.field_portfolio
+field_name: field_portfolio
+entity_type: node
+bundle: supplier_profile
+label: Portfolio
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      media_listing: media_listing
+field_type: entity_reference

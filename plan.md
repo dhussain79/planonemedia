@@ -137,49 +137,50 @@ Rebuild PlanOneMedia on **Drupal 11** using best practices, migrating only the *
 > **Why this matters:** With MCP, the AI agent becomes a first-class Drupal developer â€” it can scaffold content types, add fields, configure views, run migrations, and debug issues without context-switching to the browser. Every phase below assumes MCP is available.
 
 #### 1.3 Version Control
-- [ ] Backup existing Next.js code from `dhussain79/planonemedia` repo (tag/branch `nextjs-archive`)
-- [ ] Initialize fresh Git in `PlanOneMedia/`
-- [ ] Push to GitHub `dhussain79/planonemedia` on a new `drupal-11` branch (or reset `main`)
+- [x] Backup existing Next.js code from `dhussain79/planonemedia` repo (tag/branch `nextjs-archive`)
+- [x] Initialize fresh Git in `PlanOneMedia/`
+- [x] Push to GitHub `dhussain79/planonemedia` on `main` (force push, Next.js backed up to `nextjs-archive`)
 
 #### 1.4 Custom Theme
-- [ ] Generate custom theme: `ddev drush generate theme` or use Starterkit
-- [ ] Theme name: `planonemedia_theme`
-- [ ] Set up SCSS/CSS build pipeline (or use vanilla CSS)
-- [ ] Configure RTL stylesheet support for Arabic
-- [ ] Create base layout templates (page, header, footer, navigation)
+- [x] Generate custom theme: `ddev drush theme:enable planonemedia_theme`
+- [x] Theme name: `planonemedia_theme`
+- [x] Set up CSS build pipeline (vanilla CSS)
+- [x] Configure RTL stylesheet support via `preprocess_html` dir attr
+- [x] Create base layout templates (page, header, footer, navigation)
 
 #### 1.5 Multilingual Setup
-- [ ] Enable core modules: `locale`, `language`, `content_translation`, `interface_translation`
-- [ ] Add Arabic language
-- [ ] Set English as default, Arabic as secondary
-- [ ] Configure language detection (URL prefix: `/ar/`, `/en/`)
-- [ ] Import Arabic translations
+- [x] Enable core modules: `locale`, `language`, `content_translation`
+- [x] Add Arabic language (imported 6,568 translations)
+- [x] Set English as default, Arabic as secondary
+- [x] Configure language detection (URL prefix: `/ar/`, `/en/`)
+- [x] Import Arabic translations
 
 #### 1.6 Content Types
 Based on the D7 database structure, create these content types:
 
-- [ ] **Media Listing** â€” The core entity (maps to D7 media/OOH nodes)
+- [x] **Media Listing** — The core entity (maps to D7 media/OOH nodes)
   - Title, Description (translatable)
-  - Media type (taxonomy reference)
-  - Location (region, city, geo coordinates)
-  - Rate card (pricing fields)
-  - Images (media reference, multiple)
-  - Supplier (entity reference to user/supplier profile)
-  - Status (available, booked, maintenance)
+  - Media type (taxonomy reference to `field_media_type`)
+  - Location (region `field_region`, city `field_city`, lat/lng `field_latitude`/`field_longitude`)
+  - Rate card (pricing fields `field_rate_card`)
+  - Images (media reference `field_images`, unlimited)
+  - Supplier (entity reference to supplier_profile `field_supplier`)
+  - Status (taxonomy reference to listing_status `field_listing_status`)
 
-- [ ] **Supplier Profile** â€” Media owner/company
-  - Company name, contact info
-  - Logo, description
-  - Portfolio (reference to their listings)
+- [x] **Supplier Profile** — Media owner/company
+  - Company logo (`field_logo`)
+  - Company description (`field_company_description`)
+  - Contact email (`field_contact_email`), phone (`field_contact_phone`)
+  - Portfolio (reference to media_listing `field_portfolio`)
 
-- [ ] **Page** â€” Static pages (About, Contact, Terms)
-- [ ] **Article** â€” News/blog posts
+- [ ] **Page** — Static pages (About, Contact, Terms)
+- [ ] **Article** — News/blog posts
 
 #### 1.7 Taxonomy
-- [ ] Media Type (Billboard, Unipole, Digital Screen, Bridge Banner, etc.)
-- [ ] Region (KSA, UAE, Bahrain, Kuwait, Oman, Qatar)
-- [ ] City (Riyadh, Jeddah, Dubai, etc.)
-- [ ] Listing Status (Available, Booked, Under Maintenance)
+- [x] Media Type (Billboard, Unipole, Digital Screen, Bridge Banner, etc. — 8 terms)
+- [x] Region (KSA, UAE, Bahrain, Kuwait, Oman, Qatar — 6 terms)
+- [x] City (Riyadh, Jeddah, Dubai, etc. — 13 terms)
+- [x] Listing Status (Available, Booked, Under Maintenance — 3 terms)
 
 ---
 

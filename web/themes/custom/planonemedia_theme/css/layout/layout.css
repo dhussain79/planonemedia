@@ -1,0 +1,31 @@
+.layout-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.layout--onecol {
+  width: 100%;
+}
+
+.layout--twocol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.layout--twocol > .layout__region--first {
+  flex: 0 0 70%;
+}
+
+.layout--twocol > .layout__region--second {
+  flex: 0 0 calc(30% - 20px);
+}
+
+[dir="rtl"] .layout--twocol > .layout__region--first {
+  order: 1;
+}
+
+[dir="rtl"] .layout--twocol > .layout__region--second {
+  order: 0;
+}

@@ -1,0 +1,24 @@
+uuid: bf41bf9f-8d62-427d-bea7-e06dd160785c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_listing_status
+    - node.type.media_listing
+    - taxonomy.vocabulary.listing_status
+id: node.media_listing.field_listing_status
+field_name: field_listing_status
+entity_type: node
+bundle: media_listing
+label: 'Listing Status'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      listing_status: listing_status
+field_type: entity_reference

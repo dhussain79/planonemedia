@@ -1,0 +1,24 @@
+uuid: ff48503b-7ae6-4c41-bf21-a9e0cb768576
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_logo
+    - media.type.image
+    - node.type.supplier_profile
+id: node.supplier_profile.field_logo
+field_name: field_logo
+entity_type: node
+bundle: supplier_profile
+label: 'Company Logo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+field_type: entity_reference

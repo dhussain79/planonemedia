@@ -1,0 +1,11 @@
+uuid: 56eccfb5-ef30-4c84-973c-f3a266c61f2d
+langcode: en
+status: true
+dependencies: {  }
+name: 'Supplier Profile'
+type: supplier_profile
+description: 'Media owner / company profile'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

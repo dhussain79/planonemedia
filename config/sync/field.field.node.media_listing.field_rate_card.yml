@@ -1,0 +1,19 @@
+uuid: 32f7eb82-8c6d-4256-a013-825d917a1748
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rate_card
+    - node.type.media_listing
+id: node.media_listing.field_rate_card
+field_name: field_rate_card
+entity_type: node
+bundle: media_listing
+label: 'Rate Card'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

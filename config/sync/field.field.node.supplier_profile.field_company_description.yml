@@ -1,0 +1,22 @@
+uuid: 4fe8e32a-1093-4bd1-bfe5-e7900b94f5f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_description
+    - node.type.supplier_profile
+  module:
+    - text
+id: node.supplier_profile.field_company_description
+field_name: field_company_description
+entity_type: node
+bundle: supplier_profile
+label: 'Company Description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

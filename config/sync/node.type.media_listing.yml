@@ -1,0 +1,11 @@
+uuid: 21cd0e82-ccd4-4ced-88fc-e4b75396fe80
+langcode: en
+status: true
+dependencies: {  }
+name: 'Media Listing'
+type: media_listing
+description: 'Core media asset listing (billboard, digital screen, bridge banner, etc.)'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

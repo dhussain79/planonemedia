@@ -1,0 +1,9 @@
+uuid: 2d02c67b-58e0-40f7-b5f5-f75880f4ca77
+langcode: en
+status: true
+dependencies: {  }
+name: 'Media Type'
+vid: media_type
+description: 'Types of media assets (Billboard, Digital Screen, etc.)'
+weight: 0
+new_revision: false

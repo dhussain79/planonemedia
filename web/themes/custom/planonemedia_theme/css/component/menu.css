@@ -1,0 +1,30 @@
+.menu {
+  display: flex;
+  gap: 0;
+}
+
+.menu-item {
+  position: relative;
+}
+
+.menu-item a {
+  display: block;
+  padding: 10px 16px;
+  color: #222;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.menu-item a:hover,
+.menu-item a.is-active {
+  color: #c52327;
+  text-decoration: none;
+}
+
+.menu-item--active-trail a {
+  color: #c52327;
+}
+
+[dir="rtl"] .menu {
+  flex-direction: row-reverse;
+}

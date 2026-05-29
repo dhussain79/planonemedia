@@ -1,0 +1,24 @@
+uuid: 6a2cec0c-8c47-4aa7-9947-a65e01dbb9f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_supplier
+    - node.type.media_listing
+    - node.type.supplier_profile
+id: node.media_listing.field_supplier
+field_name: field_supplier
+entity_type: node
+bundle: media_listing
+label: Supplier
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      supplier_profile: supplier_profile
+field_type: entity_reference

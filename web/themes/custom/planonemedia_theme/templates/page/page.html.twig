@@ -1,0 +1,75 @@
+<header class="site-header" role="banner">
+  <div class="layout-container">
+    <div class="site-branding">
+      {% if page.header %}
+        {{ page.header }}
+      {% else %}
+        <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-branding__logo">
+          <img src="{{ base_path ~ directory }}/logo.svg" alt="{{ 'Home'|t }}" />
+        </a>
+        <div class="site-branding__text">
+          <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-branding__name">{{ site_name }}</a>
+          {% if site_slogan %}
+            <div class="site-branding__slogan">{{ site_slogan }}</div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.primary_menu %}
+      <nav class="main-navigation" role="navigation" aria-label="{{ 'Main navigation'|t }}">
+        {{ page.primary_menu }}
+      </nav>
+    {% endif %}
+  </div>
+</header>
+
+{% if page.breadcrumb %}
+  <div class="breadcrumb-wrapper">
+    <div class="layout-container">
+      {{ page.breadcrumb }}
+    </div>
+  </div>
+{% endif %}
+
+{% if page.highlighted %}
+  <div class="highlighted-wrapper">
+    <div class="layout-container">
+      {{ page.highlighted }}
+    </div>
+  </div>
+{% endif %}
+
+<main role="main" class="main-content">
+  <div class="layout-container">
+    <div class="layout--twocol">
+      <div class="layout__region--first">
+        {{ page.content }}
+      </div>
+      {% if page.sidebar_first %}
+        <aside class="layout__region--second" role="complementary">
+          {{ page.sidebar_first }}
+        </aside>
+      {% endif %}
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="layout-container">
+    <div class="footer-grid">
+      {% if page.footer_first %}
+        <div class="footer-region footer-first">{{ page.footer_first }}</div>
+      {% endif %}
+      {% if page.footer_second %}
+        <div class="footer-region footer-second">{{ page.footer_second }}</div>
+      {% endif %}
+      {% if page.footer_third %}
+        <div class="footer-region footer-third">{{ page.footer_third }}</div>
+      {% endif %}
+      {% if page.footer_fourth %}
+        <div class="footer-region footer-fourth">{{ page.footer_fourth }}</div>
+      {% endif %}
+    </div>
+  </div>
+</footer>

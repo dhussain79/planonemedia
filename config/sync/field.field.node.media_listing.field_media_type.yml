@@ -1,0 +1,24 @@
+uuid: c39f30db-2e81-4970-9b92-8cfa35dcb7b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media_type
+    - node.type.media_listing
+    - taxonomy.vocabulary.media_type
+id: node.media_listing.field_media_type
+field_name: field_media_type
+entity_type: node
+bundle: media_listing
+label: 'Media Type'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      media_type: media_type
+field_type: entity_reference

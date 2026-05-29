@@ -1,0 +1,9 @@
+uuid: a39c5c62-62c4-44f7-95f7-22754ce89766
+langcode: en
+status: true
+dependencies: {  }
+name: City
+vid: city
+description: 'City within region'
+weight: 0
+new_revision: false

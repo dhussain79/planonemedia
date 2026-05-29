@@ -1,0 +1,19 @@
+uuid: 7e9f12e9-b74e-4c6e-8792-8e595c0692b4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_rate_card
+field_name: field_rate_card
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

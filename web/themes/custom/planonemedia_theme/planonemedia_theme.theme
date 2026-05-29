@@ -1,0 +1,45 @@
+<?php
+
+/**
+ * @file
+ * Theme functions for PlanOneMedia Theme.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function planonemedia_theme_preprocess_page(array &$variables): void {
+  // Add RTL class to body for Arabic language.
+  $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+  if ($language === 'ar') {
+    $variables['attributes']['class'][] = 'rtl';
+    $variables['attributes']['dir'] = 'rtl';
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for html templates.
+ */
+function planonemedia_theme_preprocess_html(array &$variables): void {
+  // Add site-wide body classes.
+  $variables['attributes']['class'][] = 'planonemedia-theme';
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for block templates.
+ */
+function planonemedia_theme_preprocess_block(array &$variables): void {
+  // Add BEM-like classes to blocks.
+  $variables['content_attributes']['class'][] = 'block__content';
+}
+
+/**
+ * Implements hook_preprocess_node().
+ */
+function planonemedia_theme_preprocess_node(array &$variables): void {
+  $node = $variables['node'];
+  $variables['content_attributes']['class'][] = 'node__content';
+  
+  // Add content type class.
+  $variables['attributes']['class'][] = 'node--type-' . $node->bundle();
+}

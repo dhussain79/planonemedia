@@ -1,0 +1,19 @@
+uuid: 5a54e844-7168-4a3d-a6eb-834c77e1a8f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_latitude
+    - node.type.media_listing
+id: node.media_listing.field_latitude
+field_name: field_latitude
+entity_type: node
+bundle: media_listing
+label: Latitude
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
